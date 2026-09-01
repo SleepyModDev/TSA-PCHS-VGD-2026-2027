@@ -28,6 +28,7 @@
   "name":"TSA 2026-2027 VGD",
   "resources":[
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
+    {"id":{"name":"O_TriggerCollision","path":"objects/O_TriggerCollision/O_TriggerCollision.yy",},},
     {"id":{"name":"O_WallCollision","path":"objects/O_WallCollision/O_WallCollision.yy",},},
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"id":{"name":"RM_Test","path":"rooms/RM_Test/RM_Test.yy",},},
