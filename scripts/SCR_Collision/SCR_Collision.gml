@@ -1,0 +1,3 @@
+function SCR_Collision(){
+	
+}
