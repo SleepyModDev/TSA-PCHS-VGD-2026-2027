@@ -5,22 +5,26 @@ function Scr_PlayerFree()
 	VMove = (MoveSpd*(KeyDownHeld-KeyUpHeld));
 	
 	//horizontal move
-	if place_meeting(x+HMove, y, O_WallCollision)
-	{
-		do x=x+sign(HMove); until place_meeting(x+sign(HMove), y, O_WallCollision)
-	}
-	else
+	if !place_meeting(x+HMove, y, O_WallCollision)
 	{
 		x=x+HMove;
 	}
-	//vertical move
-	if(place_meeting(x, y+VMove, O_WallCollision))
-	{
-		do y=y+sign(VMove); until place_meeting(x, y+sign(VMove), O_WallCollision)
-	}
 	else
+	{
+		do x=x+sign(HMove); until place_meeting(x, y, O_WallCollision)
+		x=x-sign(HMove)
+	}
+	
+	//vertical move
+	if !place_meeting(x, y+VMove, O_WallCollision)
 	{
 		y=y+VMove;
 	}
+	else
+	{
+		do y=y+sign(VMove); until place_meeting(x, y, O_WallCollision)
+		y=y-sign(VMove)
+	}
+	
 	
 }
