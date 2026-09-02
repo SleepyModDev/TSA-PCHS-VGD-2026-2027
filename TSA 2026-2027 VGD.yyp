@@ -28,6 +28,7 @@
   },
   "name":"TSA 2026-2027 VGD",
   "resources":[
+    {"id":{"name":"TODO","path":"notes/TODO/TODO.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"O_TriggerCollision","path":"objects/O_TriggerCollision/O_TriggerCollision.yy",},},
     {"id":{"name":"O_WallCollision","path":"objects/O_WallCollision/O_WallCollision.yy",},},
@@ -36,6 +37,8 @@
     {"id":{"name":"SCR_Collision","path":"scripts/SCR_Collision/SCR_Collision.yy",},},
     {"id":{"name":"SCR_GetControls","path":"scripts/SCR_GetControls/SCR_GetControls.yy",},},
     {"id":{"name":"SCR_PlayerFree","path":"scripts/SCR_PlayerFree/SCR_PlayerFree.yy",},},
+    {"id":{"name":"MUS_TempPlaceholder1","path":"sounds/MUS_TempPlaceholder1/MUS_TempPlaceholder1.yy",},},
+    {"id":{"name":"MUS_TempPlaceholder2","path":"sounds/MUS_TempPlaceholder2/MUS_TempPlaceholder2.yy",},},
     {"id":{"name":"S_BasicTileset","path":"sprites/S_BasicTileset/S_BasicTileset.yy",},},
     {"id":{"name":"S_TriggerCollision","path":"sprites/S_TriggerCollision/S_TriggerCollision.yy",},},
     {"id":{"name":"S_WallCollision","path":"sprites/S_WallCollision/S_WallCollision.yy",},},
