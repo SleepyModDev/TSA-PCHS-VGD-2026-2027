@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"MUS_TempPlaceholder3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":109.71429,
+  "exportDir":"",
+  "name":"MUS_TempPlaceholder3",
+  "parent":{
+    "name":"Music MUS_",
+    "path":"folders/Music MUS_.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MUS_TempPlaceholder3.ogg",
+  "volume":0.2,
+}

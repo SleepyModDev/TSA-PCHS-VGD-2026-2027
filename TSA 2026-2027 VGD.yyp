@@ -44,6 +44,7 @@
     {"id":{"name":"SCR_PlayerFree","path":"scripts/SCR_PlayerFree/SCR_PlayerFree.yy",},},
     {"id":{"name":"MUS_TempPlaceholder1","path":"sounds/MUS_TempPlaceholder1/MUS_TempPlaceholder1.yy",},},
     {"id":{"name":"MUS_TempPlaceholder2","path":"sounds/MUS_TempPlaceholder2/MUS_TempPlaceholder2.yy",},},
+    {"id":{"name":"MUS_TempPlaceholder3","path":"sounds/MUS_TempPlaceholder3/MUS_TempPlaceholder3.yy",},},
     {"id":{"name":"S_BasicTileset","path":"sprites/S_BasicTileset/S_BasicTileset.yy",},},
     {"id":{"name":"S_TriggerCollision","path":"sprites/S_TriggerCollision/S_TriggerCollision.yy",},},
     {"id":{"name":"S_WallCollision","path":"sprites/S_WallCollision/S_WallCollision.yy",},},
