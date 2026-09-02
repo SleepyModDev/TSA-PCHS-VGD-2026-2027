@@ -7,6 +7,7 @@ if you need clarification on how i want something to work dm me and ill try my b
 
 //Room system
 -interactable object to exit the level, room transitions for the rooms within levels should be another varient of the collision box
+--[Eric] I've set up a sprite and object with some variables
 
 //set up dialouge system [Eric]
 -needs to be able to branch, probably include character portraits
