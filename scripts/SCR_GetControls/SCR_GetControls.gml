@@ -1,4 +1,4 @@
-function SCR_GetControls()
+function Get_Controls()
 {
 	KeyLeftHeld = keyboard_check(vk_left);
 	KeyLeftPressed = keyboard_check_pressed(vk_left);

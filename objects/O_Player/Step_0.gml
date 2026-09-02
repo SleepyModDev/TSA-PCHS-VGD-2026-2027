@@ -1,3 +1,3 @@
-SCR_GetControls() // get controls
+Get_Controls() // get controls
 
-SCR_PlayerFree() // player state (add state machine later if needed)
+Player_Free() // player state (add state machine later if needed)

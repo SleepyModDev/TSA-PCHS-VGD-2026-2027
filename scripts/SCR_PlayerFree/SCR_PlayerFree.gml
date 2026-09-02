@@ -1,10 +1,14 @@
-function SCR_PlayerFree()
+function Player_Free()
 {
 	//get H and V movement
 	HMove = (MoveSpd*(KeyRightHeld-KeyLeftHeld));
 	VMove = (MoveSpd*(KeyDownHeld-KeyUpHeld));
 	
-	//horizontal move
+	//get previous x and y before moving
+	PrevX = x;
+	PrevY = y;
+	
+	//horizontal movement
 	if !place_meeting(x+HMove, y, O_WallCollision)
 	{
 		x=x+HMove;
@@ -15,7 +19,7 @@ function SCR_PlayerFree()
 		x=x-sign(HMove)
 	}
 	
-	//vertical move
+	//vertical movement
 	if !place_meeting(x, y+VMove, O_WallCollision)
 	{
 		y=y+VMove;
@@ -26,5 +30,8 @@ function SCR_PlayerFree()
 		y=y-sign(VMove)
 	}
 	
+	//check if moved (used for animation control)
+	if PrevX != x {Moved = true}
+	if PrevY != y {Moved = true}
 	
 }

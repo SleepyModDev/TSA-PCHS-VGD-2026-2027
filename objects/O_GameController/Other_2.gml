@@ -2,3 +2,7 @@
 global.MusicVol = 100;
 global.SoundVol = 100;
 global.MasterVol = 100;
+
+//prepare global vars used for control between objects
+global.DisablePlayerMovement = false;
+global.DisplayDebugInfo = false;
