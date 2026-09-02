@@ -8,8 +8,8 @@
   "name":"O_WallCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects O_",
-    "path":"folders/Objects O_.yy",
+    "name":"Collision",
+    "path":"folders/Objects O_/Collision.yy",
   },
   "parentObjectId":null,
   "persistent":false,

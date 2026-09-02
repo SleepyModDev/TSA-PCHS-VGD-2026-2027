@@ -1,4 +1,4 @@
-function Scr_PlayerFree()
+function SCR_PlayerFree()
 {
 	//get H and V movement
 	HMove = (MoveSpd*(KeyRightHeld-KeyLeftHeld));

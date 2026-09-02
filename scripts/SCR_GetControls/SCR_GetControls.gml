@@ -11,4 +11,12 @@ function SCR_GetControls()
 	
 	KeyDownHeld = keyboard_check(vk_down);
 	KeyDownPressed = keyboard_check_pressed(vk_down);
+	
+	KeySelectHeld = keyboard_check(ord("Z"));
+	KeySelectPressed = keyboard_check_pressed(ord("Z"));
+	
+	KeyBackHeld = keyboard_check(ord("X"));
+	KeyBackPressed = keyboard_check_pressed(ord("X"));
+	
+	KeyDebugHeld = keyboard_check(vk_f4);
 }

@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_TriggerCollision",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_CameraController",
+  "eventList":[],
   "managed":true,
-  "name":"O_TriggerCollision",
+  "name":"O_CameraController",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collision",
-    "path":"folders/Objects O_/Collision.yy",
+    "name":"Controllers",
+    "path":"folders/Objects O_/Controllers.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_TriggerCollision",
-    "path":"sprites/S_TriggerCollision/S_TriggerCollision.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
