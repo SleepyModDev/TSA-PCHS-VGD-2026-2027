@@ -39,6 +39,7 @@
     {"id":{"name":"O_WallCollision","path":"objects/O_WallCollision/O_WallCollision.yy",},},
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"id":{"name":"RM_Test","path":"rooms/RM_Test/RM_Test.yy",},},
+    {"id":{"name":"RM_Test2","path":"rooms/RM_Test2/RM_Test2.yy",},},
     {"id":{"name":"SCR_GetControls","path":"scripts/SCR_GetControls/SCR_GetControls.yy",},},
     {"id":{"name":"SCR_PlayerFree","path":"scripts/SCR_PlayerFree/SCR_PlayerFree.yy",},},
     {"id":{"name":"MUS_TempPlaceholder1","path":"sounds/MUS_TempPlaceholder1/MUS_TempPlaceholder1.yy",},},
@@ -54,6 +55,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"roomId":{"name":"RM_Test","path":"rooms/RM_Test/RM_Test.yy",},},
+    {"roomId":{"name":"RM_Test2","path":"rooms/RM_Test2/RM_Test2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

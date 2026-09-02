@@ -1,0 +1,4 @@
+//set volume levels to 100, will be divided by 100 when processed but need to be 100 for display reasons
+global.MusicVol = 100;
+global.SoundVol = 100;
+global.MasterVol = 100;

@@ -3,13 +3,16 @@ if an item on the todo list is unclaimed and you think you can do it, put your n
 if you need clarification on how i want something to work dm me and ill try my best to explain it in more detail
 
 //Camera system
--can be bound to a room so that the camera stays within that room fully even when at the edge
+-Should be bound to a room so that the camera stays within that room fully even when at the edge
 
-//Music System
+//Music System [Eric]
 -runs on a music controller object
 
 //Room system
--interactable object to exit the room/level (levels will be large rooms)
+-interactable object to exit the level, room transitions for the rooms within levels
 
 //set up dialouge system [Eric]
 -needs to be able to branch, probably include character portraits
+
+//set up a main menu [Eric}
+-will be closely related to the dialouge system
