@@ -2,15 +2,24 @@ if an item on the todo list is unclaimed and you think you can do it, put your n
 
 if you need clarification on how i want something to work dm me and ill try my best to explain it in more detail
 
-//Music System
+//Music System [Eric]
 -runs on a music controller object
 
 //Room system
 -interactable object to exit the level, room transitions for the rooms within levels should be another varient of the collision box
---[Eric] I've set up a sprite and object with some variables
+-I've set up a sprite and object with some variables for you to build off of
 
 //set up dialouge system [Eric]
 -needs to be able to branch, probably include character portraits
 
 //set up a main menu [Eric}
 -will be closely related to the dialouge system
+
+//battle system
+- something like deltarunes should be good. instead of a bullet heel maybe we could do some kind of timed button sequence to didge enemy attacks
+- Of course we cant have the player attack so instead we should have the player solve  2-3 puzzles to disarm an enemy.
+- in terms of visuals there should be a menu for choosing an action at the bottom with the enemies taking up the upper 1/2 of the screen[maybe 2/3s?]
+
+//Puzzles
+- a bunch of different kinds that we can figure out later when we actually get to this point, but the player should be able to interact with most of them
+  just by using an interact button in the overworld, maybe some could use a more complicated set up
