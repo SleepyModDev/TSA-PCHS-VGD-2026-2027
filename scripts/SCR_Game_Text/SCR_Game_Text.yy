@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SCR_CameraFollow",
+  "%Name":"SCR_Game_Text",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SCR_CameraFollow",
+  "name":"SCR_Game_Text",
   "parent":{
     "name":"Scripts SCR_",
     "path":"folders/Scripts SCR_.yy",

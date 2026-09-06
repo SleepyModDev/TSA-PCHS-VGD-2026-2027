@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SCR_CameraFollow",
+  "%Name":"SCR_Music_Functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SCR_CameraFollow",
+  "name":"SCR_Music_Functions",
   "parent":{
     "name":"Scripts SCR_",
     "path":"folders/Scripts SCR_.yy",

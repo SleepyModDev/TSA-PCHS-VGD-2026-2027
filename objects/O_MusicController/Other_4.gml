@@ -1,7 +1,14 @@
-if room == RM_Test
-//|| RM_Test2
+/// @description Play the correct music
+
+if room == noone
 {
-	audio_play_sound(MUS_TempPlaceholder1,1,true)
+	Set_Song_Ingame(MUS_TempPlaceholder1,0,60)
 }
 
-//will need to be completely replaced later
+if room == RM_Test
+|| room == 4
+|| room == 5
+|| room == 6
+{
+	Set_Song_Ingame(MUS_TempPlaceholder1,0,0)
+}
