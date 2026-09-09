@@ -123,7 +123,7 @@ if TextPauseTimer <=0
 			else
 			{
 				SoundCount = 0;
-				audio_play_sound(Sound[Page], 8, false, 1, 0, Pitch[Page])
+				audio_play_sound(Sound[Page], 8, false, 1, 0, Pitch[Page] + random_range(-.05,.05))
 			}
 		}
 
