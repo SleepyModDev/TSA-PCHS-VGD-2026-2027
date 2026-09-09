@@ -54,6 +54,8 @@
     {"id":{"name":"MUS_TempPlaceholder1","path":"sounds/MUS_TempPlaceholder1/MUS_TempPlaceholder1.yy",},},
     {"id":{"name":"MUS_TempPlaceholder2","path":"sounds/MUS_TempPlaceholder2/MUS_TempPlaceholder2.yy",},},
     {"id":{"name":"MUS_TempPlaceholder3","path":"sounds/MUS_TempPlaceholder3/MUS_TempPlaceholder3.yy",},},
+    {"id":{"name":"SND_TextBlip","path":"sounds/SND_TextBlip/SND_TextBlip.yy",},},
+    {"id":{"name":"SND_TextBlip2","path":"sounds/SND_TextBlip2/SND_TextBlip2.yy",},},
     {"id":{"name":"S_BasicTileset","path":"sprites/S_BasicTileset/S_BasicTileset.yy",},},
     {"id":{"name":"S_Menu_Box","path":"sprites/S_Menu_Box/S_Menu_Box.yy",},},
     {"id":{"name":"S_RoomTransition","path":"sprites/S_RoomTransition/S_RoomTransition.yy",},},

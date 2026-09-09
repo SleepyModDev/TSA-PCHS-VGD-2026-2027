@@ -132,7 +132,7 @@ if TextPauseTimer <=0
 TextPauseTimer--;
 
 //flip through pages------------------------------------
-if KeySelectPress or KeySkipHold
+if KeySelectPressed or KeySkipHold
 {
 	//if typing done
 	if DrawChar == TextLength[Page]
@@ -194,7 +194,7 @@ draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX, _TextboxY, Textbox
 if DrawChar == TextLength[Page] && Page == PageNumber - 1
 {
 		//option select
-	OptionPos += KeyDownPress - KeyUpPress;
+	OptionPos += KeyDownPressed - KeyUpPressed;
 	OptionPos = clamp(OptionPos, 0, OptionNumber-1)
 	//draw the options
 	var _OptionSpace = 60

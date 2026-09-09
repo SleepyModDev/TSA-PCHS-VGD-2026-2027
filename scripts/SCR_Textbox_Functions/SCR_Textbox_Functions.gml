@@ -24,7 +24,7 @@ function Set_Defaults_For_text()
 	TextboxSprite[PageNumber] = S_Menu_Box
 	SpeakerSprite[PageNumber] = noone
 	SpeakerSide[PageNumber] = 1;
-	Sound[PageNumber] = noone //Text_Voice_SND;
+	Sound[PageNumber] = SND_TextBlip2;
 	Pitch[PageNumber] = .75
 }
 

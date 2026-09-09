@@ -18,5 +18,7 @@ function Get_Controls()
 	KeyBackHeld = keyboard_check(ord("X"));
 	KeyBackPressed = keyboard_check_pressed(ord("X"));
 	
+	KeySkipHold = noone //set if needed
+	
 	KeyDebugHeld = keyboard_check(vk_f4);
 }
