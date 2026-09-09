@@ -6,3 +6,7 @@ global.MasterVol = 100;
 //prepare global vars used for control between objects
 global.DisablePlayerMovement = false;
 global.DisplayDebugInfo = false;
+
+//prepare various other vars
+QuitTime = 180;
+QuitTimer = 0;

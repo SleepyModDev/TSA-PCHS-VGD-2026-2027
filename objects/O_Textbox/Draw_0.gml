@@ -1,12 +1,11 @@
 Get_Controls()
 
-TextboxX = camera_get_view_x(view_camera[0]) +228;
-TextboxY = camera_get_view_y(view_camera[0]) + 384;
+TextboxX = camera_get_view_x(view_camera[0]) + 180;
+TextboxY = camera_get_view_y(view_camera[0]) + 360;
 
 //setup--------------------------------------
 if SetUp = false
 {
-	global.Paused = 0
 	SetUp = true;
 	draw_set_font(Font1);
 	draw_set_valign(fa_top);
@@ -105,10 +104,10 @@ if TextPauseTimer <=0
 		DrawChar += TextSpd;
 		DrawChar = clamp(DrawChar, 0, TextLength[Page]);
 		var _CheckChar = string_char_at(Text[Page], DrawChar);
-		if _CheckChar == "." or _CheckChar == "?" or _CheckChar == "!" or _CheckChar == "," or _CheckChar == "-"
+		if _CheckChar == "." or _CheckChar == "?" or _CheckChar == "!" or _CheckChar == ","
 		{
 			TextPauseTimer = TextPauseTime
-					if _CheckChar == "," or _CheckChar == "-"
+					if _CheckChar == ","
 			{
 				TextPauseTimer = TextPauseTime/2
 			}
@@ -208,7 +207,7 @@ if DrawChar == TextLength[Page] && Page == PageNumber - 1
 		//the arrow
 		if OptionPos == o
 		{
-			draw_sprite(Menu_Cursor_SPR,0,_TextboxX, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
+			draw_sprite(S_MenuCursorBlack,0,_TextboxX, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
 		}
 		
 		//the text

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Checkpoint",
+  "%Name":"O_Checkpoint_Collision",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":90,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Checkpoint",
+  "name":"O_Checkpoint_Collision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Saves and Respawn points",
-    "path":"folders/Objects O_/Controllers/Saves and Respawn points.yy",
+    "name":"Collision",
+    "path":"folders/Objects O_/Collision.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_CheckpointCollision",
+    "path":"sprites/S_CheckpointCollision/S_CheckpointCollision.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
