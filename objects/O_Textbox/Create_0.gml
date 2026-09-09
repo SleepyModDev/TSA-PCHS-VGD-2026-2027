@@ -7,7 +7,7 @@ Border = 8;
 Space = 32;
 LineWidth = TextboxWidth - Border*2;
 
-TextboxSprite[0] = S_Menu_Box;
+TextboxSprite[0] = S_MenuBoxBlack;
 TextboxImage = 0;
 TextboxImageSpd = 0;
 
@@ -33,7 +33,7 @@ OptionNumber = 0;
 SetUp = false;
 
 //sound
-SoundDelay = 4
+SoundDelay = 3
 SoundCount = SoundDelay
 
 //effects

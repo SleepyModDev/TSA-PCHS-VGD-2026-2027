@@ -15,7 +15,7 @@
   "name":"MUS_TempPlaceholder2",
   "parent":{
     "name":"Music MUS_",
-    "path":"folders/Music MUS_.yy",
+    "path":"folders/Audio [music and sounds]/Music MUS_.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

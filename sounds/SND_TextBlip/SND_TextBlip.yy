@@ -15,7 +15,7 @@
   "name":"SND_TextBlip",
   "parent":{
     "name":"Sounds _SND",
-    "path":"folders/Sounds _SND.yy",
+    "path":"folders/Audio [music and sounds]/Sounds _SND.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

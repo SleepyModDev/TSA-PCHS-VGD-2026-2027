@@ -170,8 +170,8 @@ if KeySelectPressed or KeySkipHold
 var _TextboxX = TextboxX + TextXOffset[Page];
 var _TextboxY = TextboxY;
 TextboxImage += TextboxImageSpd;
-TextboxSpriteWidth = sprite_get_width(S_Menu_Box);
-TextboxSpriteHeight = sprite_get_height(S_Menu_Box);
+TextboxSpriteWidth = sprite_get_width(S_MenuBoxBlack);
+TextboxSpriteHeight = sprite_get_height(S_MenuBoxBlack);
 
 //draw the speaker
 if SpeakerSprite[Page] != noone

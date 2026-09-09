@@ -21,7 +21,7 @@ function Set_Defaults_For_text()
 		ShakeIntensity[c, PageNumber] = 1;
 	}
 	
-	TextboxSprite[PageNumber] = S_Menu_Box
+	TextboxSprite[PageNumber] = S_MenuBoxBlack
 	SpeakerSprite[PageNumber] = noone
 	SpeakerSide[PageNumber] = 1;
 	Sound[PageNumber] = SND_TextBlip2;
@@ -79,6 +79,7 @@ function Text_Shake(_First, _Last,_Intensity)
 function Text_SCR(_Text)
 {
 	Set_Defaults_For_text();
+	if _Text == "" {TextboxSprite[PageNumber] = S_MenuBoxError}
 	
 	Text[PageNumber] = _Text;
 	
@@ -87,19 +88,27 @@ function Text_SCR(_Text)
 	{
 		switch(argument[1])
 		{
+			//---------ERROR--------------//
+			case "ERROR":
+			SpeakerSprite[PageNumber] = noone
+			TextboxSprite[PageNumber] = S_MenuBoxError;
+			Sound[PageNumber] = SND_TextBlip2
+			Pitch[PageNumber] = 1
+				break;
+			
 			//---------JUDE--------------//
 			#region JUDE
 			case "Jude":
-			SpeakerSprite[PageNumber] = noone //Jude_Neutral_Portrait_SPR; 
-			TextboxSprite[PageNumber] = S_Menu_Box;
-			Sound[PageNumber] = noone //Jude_Voice_SND
+			SpeakerSprite[PageNumber] = noone //S_JudePortrait; 
+			TextboxSprite[PageNumber] = S_MenuBoxBlack;
+			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = 1
 				break;
 				
 			case "Jude Alt":
-			SpeakerSprite[PageNumber] = noone //Jude_Portrait_SPR; 
-			TextboxSprite[PageNumber] = S_Menu_Box;
-			Sound[PageNumber] = noone //Jude_Voice_SND
+			SpeakerSprite[PageNumber] = noone //S_JudePortraitAlt; 
+			TextboxSprite[PageNumber] = S_MenuBoxBlack;
+			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = .9
 				break;
 			#endregion JUDE
