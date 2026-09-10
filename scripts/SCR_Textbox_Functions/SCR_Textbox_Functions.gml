@@ -9,8 +9,8 @@ function Set_Defaults_For_text()
 	{
 		TextCol1[c, PageNumber] = c_white
 		TextCol2[c, PageNumber] = c_white
-		TextCol3[c, PageNumber] = c_gray
-		TextCol4[c, PageNumber] = c_gray
+		TextCol3[c, PageNumber] = c_white
+		TextCol4[c, PageNumber] = c_white
 		
 		TextFloat[c, PageNumber] = 0;
 		FloatDir[c, PageNumber] = c*20;
