@@ -90,16 +90,16 @@ function Text_SCR(_Text)
 		{
 			//---------ERROR--------------//
 			case "ERROR":
-			SpeakerSprite[PageNumber] = noone
+			SpeakerSprite[PageNumber] = noone;
 			TextboxSprite[PageNumber] = S_MenuBoxError;
-			Sound[PageNumber] = SND_TextBlip2
-			Pitch[PageNumber] = 1
+			Sound[PageNumber] = SND_TextBlip2;
+			Pitch[PageNumber] = 1;
 				break;
 			
 			//---------JUDE--------------//
 			#region JUDE
 			case "Jude":
-			SpeakerSprite[PageNumber] = noone //S_JudePortrait; 
+			SpeakerSprite[PageNumber] = noone; //S_JudePortrait; 
 			TextboxSprite[PageNumber] = S_MenuBoxBlack;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = 1

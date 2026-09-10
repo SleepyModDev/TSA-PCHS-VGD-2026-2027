@@ -202,16 +202,16 @@ if DrawChar == TextLength[Page] && Page == PageNumber - 1
 	{
 		//option box
 		var _OptionWidth = string_width(Option[o]) + _OptionBorder*2;
-		draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX + 32, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
+		draw_sprite_ext(S_MenuBoxBlack, TextboxImage, _TextboxX + 32, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
 		
 		//the arrow
 		if OptionPos == o
 		{
-			draw_sprite(S_MenuCursorBlack,0,_TextboxX, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
+			draw_sprite(S_MenuCursor,0,_TextboxX+12, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
 		}
 		
 		//the text
-		draw_text(_TextboxX + 32 + _OptionBorder, _TextboxY - _OptionSpace*OptionNumber+12 + _OptionSpace*o + 2,Option[o]);
+		draw_text(_TextboxX + 30 + _OptionBorder, _TextboxY - _OptionSpace*OptionNumber+4 + _OptionSpace*o + 2,Option[o]);
 	}
 	
 }
