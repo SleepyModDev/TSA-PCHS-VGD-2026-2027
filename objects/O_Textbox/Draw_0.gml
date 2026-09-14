@@ -225,7 +225,7 @@ for (var c = 0; c < DrawChar; c++;)
 	var _FloatY = 0
 	if TextFloat[c, Page] == 1
 	{
-		FloatDir[c, Page] += -6;
+		FloatDir[c, Page] += -4;
 		_FloatY = dsin(FloatDir[c, Page]) * 4
 	}
 		//shake text

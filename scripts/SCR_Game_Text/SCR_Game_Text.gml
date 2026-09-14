@@ -16,5 +16,11 @@ function Game_Text(_TextID)
 		case "TEST2" :
 			Text_SCR("-Option B 2 Chosen.")
 			break;
+		case "Test 1" :
+			Text_SCR("This is a test textbox for testing purposes.")
+			Text_SCR("If you are reading this you have reached the second textbox where we test color, shake, and float.")
+				Text_Color(74,78,c_yellow,c_yellow,c_white,c_white)
+				Text_Shake(81,85,1)
+				Text_Float(92,96,10)
 	}
 }

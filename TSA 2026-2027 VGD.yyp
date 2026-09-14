@@ -65,6 +65,7 @@
     {"id":{"name":"S_InteractionCollision","path":"sprites/S_InteractionCollision/S_InteractionCollision.yy",},},
     {"id":{"name":"S_MenuBoxBlack","path":"sprites/S_MenuBoxBlack/S_MenuBoxBlack.yy",},},
     {"id":{"name":"S_MenuBoxError","path":"sprites/S_MenuBoxError/S_MenuBoxError.yy",},},
+    {"id":{"name":"S_MenuBoxSystem","path":"sprites/S_MenuBoxSystem/S_MenuBoxSystem.yy",},},
     {"id":{"name":"S_MenuBoxTemplate","path":"sprites/S_MenuBoxTemplate/S_MenuBoxTemplate.yy",},},
     {"id":{"name":"S_MenuCursor","path":"sprites/S_MenuCursor/S_MenuCursor.yy",},},
     {"id":{"name":"S_RoomTransition","path":"sprites/S_RoomTransition/S_RoomTransition.yy",},},

@@ -79,7 +79,6 @@ function Text_Shake(_First, _Last,_Intensity)
 function Text_SCR(_Text)
 {
 	Set_Defaults_For_text();
-	if _Text == "" {TextboxSprite[PageNumber] = S_MenuBoxError}
 	
 	Text[PageNumber] = _Text;
 	

@@ -2,18 +2,14 @@ if an item on the todo list is unclaimed and you think you can do it, put your n
 
 if you need clarification on how i want something to work dm me and ill try my best to explain it in more detail
 
-//Music System [Eric]
--runs on a music controller object
-
 //Room system
 -interactable object to exit the level, room transitions for the rooms within levels should be another varient of the collision box
 -I've set up a sprite and object with some variables for you to build off of
 
-//set up dialouge system [Eric]
--needs to be able to branch, probably include character portraits
+//set up a main menu [Eric]
 
-//set up a main menu [Eric}
--will be closely related to the dialouge system
+//checkpoint system
+-should be triggered by hitting the select key [z] when in the bounds of a checkpoint collision and facing the correct direction to open a confirmation prompt
 
 //battle system
 - something like deltarunes should be good. instead of a bullet heel maybe we could do some kind of timed button sequence to didge enemy attacks
