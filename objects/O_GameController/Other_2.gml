@@ -10,3 +10,5 @@ global.DisplayDebugInfo = false;
 //prepare various other vars
 QuitTime = 180;
 QuitTimer = 0;
+
+global.SeenTextArray = array_create(5000,false)

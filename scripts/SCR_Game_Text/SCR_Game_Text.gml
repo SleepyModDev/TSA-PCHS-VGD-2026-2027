@@ -3,7 +3,7 @@ function Game_Text(_TextID)
 {
 	switch(_TextID)
 	{
-		//error message
+		//error/test message
 		case "" :
 			Text_SCR("-Error Detected: No Text Has Been Added For This Trigger Yet! For testing purposes you will be promted with 2 choices.", "ERROR")
 				Text_Color(0,120,c_red,c_red,c_red,c_red)
@@ -22,5 +22,11 @@ function Game_Text(_TextID)
 				Text_Color(74,78,c_yellow,c_yellow,c_white,c_white)
 				Text_Shake(81,85,1)
 				Text_Float(92,96,10)
+			break;
+		case "Test 2" :
+			Text_SCR("This is a test textbox for testing purposes.")
+			Text_SCR("If you are reading this you have gone to the second room for the first time, this textbox should not appear again.")
+			array_insert(global.SeenTextArray,0,true) //sets a text as seen for text that should only be triggered once
+		break;
 	}
 }

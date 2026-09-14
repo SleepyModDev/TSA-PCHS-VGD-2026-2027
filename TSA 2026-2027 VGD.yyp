@@ -49,6 +49,7 @@
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"id":{"name":"RM_StartScreen","path":"rooms/RM_StartScreen/RM_StartScreen.yy",},},
     {"id":{"name":"RM_Test","path":"rooms/RM_Test/RM_Test.yy",},},
+    {"id":{"name":"RM_Test2","path":"rooms/RM_Test2/RM_Test2.yy",},},
     {"id":{"name":"SCR_CameraFollow","path":"scripts/SCR_CameraFollow/SCR_CameraFollow.yy",},},
     {"id":{"name":"SCR_Game_Text","path":"scripts/SCR_Game_Text/SCR_Game_Text.yy",},},
     {"id":{"name":"SCR_GetControls","path":"scripts/SCR_GetControls/SCR_GetControls.yy",},},
@@ -79,6 +80,7 @@
     {"roomId":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"roomId":{"name":"RM_Test","path":"rooms/RM_Test/RM_Test.yy",},},
     {"roomId":{"name":"RM_StartScreen","path":"rooms/RM_StartScreen/RM_StartScreen.yy",},},
+    {"roomId":{"name":"RM_Test2","path":"rooms/RM_Test2/RM_Test2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

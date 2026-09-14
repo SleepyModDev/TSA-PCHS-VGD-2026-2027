@@ -6,9 +6,14 @@ if room == noone
 }
 
 if room == RM_Test
-|| room == 4
 || room == 5
 || room == 6
 {
-	Set_Song_Ingame(MUS_TempPlaceholder1,0,0)
+	Set_Song_Ingame(MUS_TempPlaceholder1,60,60)
+}
+
+if room == RM_Test2
+
+{
+	Set_Song_Ingame(MUS_TempPlaceholder2,60,60)
 }
