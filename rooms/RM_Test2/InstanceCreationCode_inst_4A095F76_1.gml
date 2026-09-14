@@ -1,3 +1,4 @@
-TargetX = 1216;
+TargetX = 1248;
 TargetY = 384;
 TargetRoom = RM_Test;
+Collided = 0;

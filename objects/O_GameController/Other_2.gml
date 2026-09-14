@@ -6,9 +6,22 @@ global.MasterVol = 100;
 //prepare global vars used for control between objects
 global.DisablePlayerMovement = false;
 global.DisplayDebugInfo = false;
+global.FreezePlayer = false;
 
 //prepare various other vars
 QuitTime = 180;
 QuitTimer = 0;
 
 global.SeenTextArray = array_create(5000,false)
+
+global.InventoryArray = array_create(10,noone)
+
+// area and puzzle tracking
+global.ClearedAreasArray = array_create(5,false) //tracks if a region has been beaten
+#region Area Room Arrays
+global.ClearedPuzzlesArea1Array = array_create(5,false) //tracks if a puzzle in this region has been beaten
+global.ClearedPuzzlesArea2Array = array_create(5,false)
+global.ClearedPuzzlesArea3Array = array_create(5,false)
+global.ClearedPuzzlesArea4Array = array_create(5,false)
+global.ClearedPuzzlesArea5Array = array_create(5,false)
+#endregion Area Room Arrays

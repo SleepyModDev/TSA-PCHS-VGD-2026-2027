@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites S_",
-    "path":"folders/Sprites S_.yy",
+    "name":"debug stuff [also used for hitboxes]",
+    "path":"folders/Sprites S_/debug stuff [also used for hitboxes].yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

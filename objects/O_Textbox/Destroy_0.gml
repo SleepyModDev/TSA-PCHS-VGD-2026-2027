@@ -1,0 +1,1 @@
+global.FreezePlayer = false;

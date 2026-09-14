@@ -1,0 +1,1 @@
+draw_sprite_ext(S_ScreenBorder,0,0,0,20,20,0,c_black,1)

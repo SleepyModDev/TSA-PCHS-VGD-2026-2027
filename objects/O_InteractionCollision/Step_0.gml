@@ -1,27 +1,45 @@
 Get_Controls()
 
-if NeedInput
+if !instance_exists(O_Textbox)
 {
-	if place_meeting(x, y, O_Player) && KeySelectPressed && !instance_exists(O_Textbox)// && global.Paused == 1
+	if NeedInput
 	{
-		Create_Textbox(TextID)
-	}
-}
-else
-{
-	if CanTriggerAgain = true
-	{
-		if place_meeting(x, y, O_Player) && !instance_exists(O_Textbox)// && global.Paused == 1
+		if CanTriggerAgain = true
 		{
-			Create_Textbox(TextID)
+			if place_meeting(x, y, O_Player) && KeySelectPressed
+			{
+				if FreezePlayer {global.FreezePlayer = 1}
+				Create_Textbox(TextID)
+			}
+		}
+		else
+		{
+			if place_meeting(x, y, O_Player) && KeySelectPressed && Triggered = false
+			{
+				if FreezePlayer {global.FreezePlayer = 1}
+				Create_Textbox(TextID)
+				Triggered = true
+			}
 		}
 	}
 	else
 	{
-		if place_meeting(x, y, O_Player) && !instance_exists(O_Textbox) && Triggered = false// && global.Paused == 1
+		if CanTriggerAgain = true
 		{
-			Create_Textbox(TextID)
-			Triggered = true
+			if place_meeting(x, y, O_Player) && !instance_exists(O_Textbox) && !global.FreezePlayer
+			{
+				if FreezePlayer {global.FreezePlayer = 1}
+				Create_Textbox(TextID)
+			}
+		}
+		else
+		{
+			if place_meeting(x, y, O_Player) && !instance_exists(O_Textbox) && Triggered = false && !global.FreezePlayer
+			{
+				if FreezePlayer {global.FreezePlayer = 1}
+				Create_Textbox(TextID)
+				Triggered = true
+			}
 		}
 	}
 }
