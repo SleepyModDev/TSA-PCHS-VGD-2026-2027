@@ -9,7 +9,7 @@ Delay = 1;
 Delayed = 0;
 
 TransitionSprite = S_BlankSquare;
-SubImgIncrement = sprite_get_speed(TransitionSprite)/room_speed;
+SubImgIncrement = sprite_get_speed(TransitionSprite)/60;
 SubImg = 0;
 IMax = sprite_get_number(TransitionSprite);
 

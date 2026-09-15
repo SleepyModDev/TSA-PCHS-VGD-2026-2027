@@ -2,9 +2,6 @@ if an item on the todo list is unclaimed and you think you can do it, put your n
 
 if you need clarification on how i want something to work dm me and ill try my best to explain it in more detail
 
-//Room system
--interactable object to exit the level, room transitions for the rooms within levels should be another varient of the collision box
--I've set up a sprite and object with some variables for you to build off of
 
 //set up a main menu [Eric]
 

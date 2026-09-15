@@ -97,7 +97,7 @@ if SetUp = false
 //typing the text-----------------------------------
 if string_char_at(Text[Page], DrawChar) == "." or string_char_at(Text[Page], DrawChar) == "?" or string_char_at(Text[Page], DrawChar) == "," or string_char_at(Text[Page], DrawChar) == "-" or string_char_at(Text[Page], DrawChar) == "!"
 {image_index = 0}
-if TextPauseTimer <=0
+if TextPauseTimer <=0 
 {
 	if DrawChar < TextLength[Page]
 	{
@@ -108,9 +108,9 @@ if TextPauseTimer <=0
 		{
 			TextPauseTimer = TextPauseTime
 					if _CheckChar == ","
-			{
-				TextPauseTimer = TextPauseTime/2
-			}
+				{
+					TextPauseTimer = TextPauseTime/2
+				}
 		}
 		else
 		{
@@ -170,7 +170,8 @@ var _TextboxX = TextboxX + TextXOffset[Page];
 var _TextboxY = TextboxY;
 TextboxImage += TextboxImageSpd;
 TextboxSpriteWidth = sprite_get_width(S_MenuBoxBlack);
-TextboxSpriteHeight = sprite_get_height(S_MenuBoxBlack);
+TextboxSpriteHeight = sprite_get_height(S_MenuBoxBlack)
+
 
 //draw the speaker
 if SpeakerSprite[Page] != noone
