@@ -1,9 +1,4 @@
-if an item on the todo list is unclaimed and you think you can do it, put your name next to it
-
-if you need clarification on how i want something to work dm me and ill try my best to explain it in more detail
-
-
-//set up a main menu [Eric]
+//set up a main menu
 
 //checkpoint system
 -should be triggered by hitting the select key [z] when in the bounds of a checkpoint collision and facing the correct direction to open a confirmation prompt
