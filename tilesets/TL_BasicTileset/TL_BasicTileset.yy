@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"S_BasicTileset",
-    "path":"sprites/S_BasicTileset/S_BasicTileset.yy",
+    "name":"S_TestTileset",
+    "path":"sprites/S_TestTileset/S_TestTileset.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

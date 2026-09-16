@@ -1,6 +1,6 @@
+room_goto(global.RespawnRoom)
 x = global.RespawnX
 y = global.RespawnY
-room_goto(global.RespawnRoom)
 
 //save progress
 	//seen text
