@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Checkpoint_Collision",
+  "%Name":"O_InteractCollision",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":90,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Checkpoint_Collision",
+  "name":"O_InteractCollision",
   "overriddenProperties":[],
   "parent":{
     "name":"Collision",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_CheckpointCollision",
-    "path":"sprites/S_CheckpointCollision/S_CheckpointCollision.yy",
+    "name":"S_InteractCollision",
+    "path":"sprites/S_InteractCollision/S_InteractCollision.yy",
   },
   "spriteMaskId":null,
   "visible":false,

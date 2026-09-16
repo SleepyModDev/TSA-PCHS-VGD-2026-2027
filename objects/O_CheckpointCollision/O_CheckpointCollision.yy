@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_Textbox",
+  "%Name":"O_CheckpointCollision",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Textbox",
+  "name":"O_CheckpointCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus and dialouge boxes",
-    "path":"folders/Objects O_/Menus and dialouge boxes.yy",
+    "name":"Collision",
+    "path":"folders/Objects O_/Collision.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_CheckpointCollision",
+    "path":"sprites/S_CheckpointCollision/S_CheckpointCollision.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

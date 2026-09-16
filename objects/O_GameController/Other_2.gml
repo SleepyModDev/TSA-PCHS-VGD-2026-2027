@@ -12,9 +12,15 @@ global.FreezePlayer = false;
 QuitTime = 180;
 QuitTimer = 0;
 
-global.SeenTextArray = array_create(5000,false)
+//test stuff
+global.ClearedTestPuzzlesArray = array_create(5,false)
+global.ClearedTestPuzzlesArraySaved = array_create(5,false)
+
+//text stuff
+global.SeenTextArray = array_create(5000,false) //prob wont use all of these but better safe then sorry
 global.SeenTextArraySaved = array_create(5000,false)
 
+//inv stuff
 global.InventoryArray = array_create(10,noone)
 global.InventoryArraySaved = array_create(10,noone)
 

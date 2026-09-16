@@ -1,5 +1,6 @@
 Get_Controls()
 
+global.KeepPlayerFrozenBetweenBoxes = FreezePlayer
 if !instance_exists(O_Textbox)
 {
 	if NeedInput

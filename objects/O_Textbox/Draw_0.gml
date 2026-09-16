@@ -147,7 +147,7 @@ if KeySelectPressed or KeySkipHold
 		{
 			if !KeySkipHold
 			{
-				global.Paused = 1
+				global.FreezePlayer = false;
 				//link text for options
 				if OptionNumber > 0
 				{

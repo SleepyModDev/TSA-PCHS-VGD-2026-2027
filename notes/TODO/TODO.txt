@@ -11,3 +11,4 @@
 //Puzzles
 - a bunch of different kinds that we can figure out later when we actually get to this point, but the player should be able to interact with most of them
   just by using an interact button in the overworld, maybe some could use a more complicated set up
+  

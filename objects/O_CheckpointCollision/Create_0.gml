@@ -1,0 +1,2 @@
+LastSafeSpotX = x;
+LastSafeSpotY = y;

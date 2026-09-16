@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_InteractionCollision",
+  "%Name":"O_TextCollision",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_InteractionCollision",
+  "name":"O_TextCollision",
   "overriddenProperties":[],
   "parent":{
     "name":"Collision",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_InteractionCollision",
-    "path":"sprites/S_InteractionCollision/S_InteractionCollision.yy",
+    "name":"S_TextCollision",
+    "path":"sprites/S_TextCollision/S_TextCollision.yy",
   },
   "spriteMaskId":null,
   "visible":false,
