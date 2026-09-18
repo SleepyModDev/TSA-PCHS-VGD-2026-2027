@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Menu Sprites",
-    "path":"folders/Sprites S_/Menu Sprites.yy",
+    "name":"Menus and dialouge boxes",
+    "path":"folders/Objects O_ and Sprites S_/Menus and dialouge boxes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

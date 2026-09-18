@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"GUI and other screen stuff",
-    "path":"folders/Sprites S_/GUI and other screen stuff.yy",
+    "path":"folders/Objects O_ and Sprites S_/Other Sprites/GUI and other screen stuff.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

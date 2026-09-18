@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Menus and dialouge boxes",
-    "path":"folders/Objects O_/Menus and dialouge boxes.yy",
+    "path":"folders/Objects O_ and Sprites S_/Menus and dialouge boxes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

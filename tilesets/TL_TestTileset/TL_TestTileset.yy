@@ -1,19 +1,19 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet2",
+  "%Name":"TL_TestTileset",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet2",
+  "name":"TL_TestTileset",
   "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"TSA 2026-2027 VGD",
-    "path":"TSA 2026-2027 VGD.yyp",
+    "name":"Tilesets TL_",
+    "path":"folders/Tilesets TL_.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

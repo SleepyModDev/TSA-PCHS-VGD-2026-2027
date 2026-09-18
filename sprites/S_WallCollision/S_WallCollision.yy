@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"debug stuff [also used for hitboxes]",
-    "path":"folders/Sprites S_/debug stuff [also used for hitboxes].yy",
+    "name":"Collision",
+    "path":"folders/Objects O_ and Sprites S_/Collision.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

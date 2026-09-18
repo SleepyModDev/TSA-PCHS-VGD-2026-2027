@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Collision",
-    "path":"folders/Objects O_/Collision.yy",
+    "path":"folders/Objects O_ and Sprites S_/Collision.yy",
   },
   "parentObjectId":null,
   "persistent":false,

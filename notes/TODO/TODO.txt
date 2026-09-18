@@ -1,8 +1,5 @@
 //set up a main menu
 
-//checkpoint system
--should be triggered by hitting the select key [z] when in the bounds of a checkpoint collision and facing the correct direction to open a confirmation prompt
-
 //battle system
 - something like deltarunes should be good. instead of a bullet heel maybe we could do some kind of timed button sequence to didge enemy attacks
 - Of course we cant have the player attack so instead we should have the player solve  2-3 puzzles to disarm an enemy.
@@ -12,3 +9,4 @@
 - a bunch of different kinds that we can figure out later when we actually get to this point, but the player should be able to interact with most of them
   just by using an interact button in the overworld, maybe some could use a more complicated set up
   
+	//working on pipe puzzles, just need to be able to check for when its solved now
