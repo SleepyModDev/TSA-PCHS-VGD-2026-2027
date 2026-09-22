@@ -1,7 +1,7 @@
 //set up a main menu
 
 //battle system
-- something like deltarunes should be good. instead of a bullet heel maybe we could do some kind of timed button sequence to didge enemy attacks
+- something like deltarunes should be good. instead of a bullet hell maybe we could do some kind of timed button sequence to dodge enemey attacks
 - Of course we cant have the player attack so instead we should have the player solve  2-3 puzzles to disarm an enemy.
 - in terms of visuals there should be a menu for choosing an action at the bottom with the enemies taking up the upper 1/2 of the screen[maybe 2/3s?]
 
