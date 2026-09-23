@@ -1,2 +1,2 @@
 //spawn battle
-Battle_Start("",2)
+Battle_Start("TempEnemy",2)

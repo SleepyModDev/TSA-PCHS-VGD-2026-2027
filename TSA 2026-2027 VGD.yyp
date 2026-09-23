@@ -102,6 +102,7 @@
     {"id":{"name":"S_RoomTransition","path":"sprites/S_RoomTransition/S_RoomTransition.yy",},},
     {"id":{"name":"S_SaveCollision","path":"sprites/S_SaveCollision/S_SaveCollision.yy",},},
     {"id":{"name":"S_ScreenBorder","path":"sprites/S_ScreenBorder/S_ScreenBorder.yy",},},
+    {"id":{"name":"S_TEMPENEMYSPRITES_1","path":"sprites/S_TEMPENEMYSPRITES_1/S_TEMPENEMYSPRITES_1.yy",},},
     {"id":{"name":"S_TEMPENEMYSPRITES","path":"sprites/S_TEMPENEMYSPRITES/S_TEMPENEMYSPRITES.yy",},},
     {"id":{"name":"S_TestTileset","path":"sprites/S_TestTileset/S_TestTileset.yy",},},
     {"id":{"name":"S_TextCollision","path":"sprites/S_TextCollision/S_TextCollision.yy",},},
