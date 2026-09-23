@@ -1,2 +1,2 @@
 //spawn battle
-Battle_Start("",1)
+Battle_Start("",2)

@@ -5,6 +5,8 @@
 - Of course we cant have the player attack so instead we should have the player solve  2-3 puzzles to disarm an enemy.
 - in terms of visuals there should be a menu for choosing an action at the bottom with the enemies taking up the upper 1/2 of the screen[maybe 2/3s?]
 
+	//get buttons to show up
+
 //Puzzles
 - a bunch of different kinds that we can figure out later when we actually get to this point, but the player should be able to interact with most of them
   just by using an interact button in the overworld, maybe some could use a more complicated set up

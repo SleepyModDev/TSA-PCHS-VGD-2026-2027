@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"O_Battle",
+  "%Name":"O_BattleButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Battle",
+  "name":"O_BattleButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Battle",
     "path":"folders/Objects O_ and Sprites S_/Battle.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_BattleMenuButtons",
+    "path":"sprites/S_BattleMenuButtons/S_BattleMenuButtons.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
