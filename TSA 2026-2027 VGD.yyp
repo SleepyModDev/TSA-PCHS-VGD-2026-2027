@@ -73,6 +73,7 @@
     {"id":{"name":"RM_Test3","path":"rooms/RM_Test3/RM_Test3.yy",},},
     {"id":{"name":"SCR_Battle","path":"scripts/SCR_Battle/SCR_Battle.yy",},},
     {"id":{"name":"SCR_CameraFollow","path":"scripts/SCR_CameraFollow/SCR_CameraFollow.yy",},},
+    {"id":{"name":"SCR_CheckPipe","path":"scripts/SCR_CheckPipe/SCR_CheckPipe.yy",},},
     {"id":{"name":"SCR_Game_Text","path":"scripts/SCR_Game_Text/SCR_Game_Text.yy",},},
     {"id":{"name":"SCR_GetControls","path":"scripts/SCR_GetControls/SCR_GetControls.yy",},},
     {"id":{"name":"SCR_Music_Functions","path":"scripts/SCR_Music_Functions/SCR_Music_Functions.yy",},},
