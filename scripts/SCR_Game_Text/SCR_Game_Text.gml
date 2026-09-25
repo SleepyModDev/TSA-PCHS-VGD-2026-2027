@@ -89,6 +89,8 @@ function Game_Text(_TextID)
 				Text_SCR("This puzzle has already been solved.")
 			}
 		break;
+		case "Puzzle Test Win" :
+			Text_SCR("Puzzle Completed :)")
 		
 		#endregion error/test message
 	}
