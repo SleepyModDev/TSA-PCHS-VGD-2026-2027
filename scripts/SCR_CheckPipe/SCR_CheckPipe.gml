@@ -37,6 +37,8 @@ function checkNext(NextPD, pArray, ArrayID)
 			if(ArrayID.object_index == O_PipeEnd)
 			{
 				show_debug_message("win");
+				if room = RM_Test2 {array_set(global.ClearedTestPuzzlesArray, 0, true)}
+				Create_Textbox("Puzzle Test Win")
 				instance_destroy(O_PipeChecker);
 			}
 			//straight does not need positive or negative check
