@@ -33,9 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"temporaryplayerssprite",
-    "path":"sprites/temporaryplayerssprite/temporaryplayerssprite.yy",
+    "name":"S_Player_Idle",
+    "path":"sprites/S_Player_Idle/S_Player_Idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"S_Player_Idle",
+    "path":"sprites/S_Player_Idle/S_Player_Idle.yy",
+  },
   "visible":true,
 }

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"MUS_TempPlaceholder3",
+  "%Name":"MUS_Pipes",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":109.71429,
+  "duration":64.0,
   "exportDir":"",
-  "name":"MUS_TempPlaceholder3",
+  "name":"MUS_Pipes",
   "parent":{
     "name":"Music MUS_",
     "path":"folders/Audio [music and sounds]/Music MUS_.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"MUS_TempPlaceholder3.ogg",
-  "volume":0.2,
+  "soundFile":"MUS_Pipes.ogg",
+  "volume":0.25,
 }

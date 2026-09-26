@@ -19,5 +19,3 @@ array_copy(global.ClearedPuzzlesArea4ArraySaved,0,global.ClearedPuzzlesArea4Arra
 array_copy(global.ClearedPuzzlesArea5ArraySaved,0,global.ClearedPuzzlesArea5Array,0,array_length(global.ClearedPuzzlesArea5Array))
 	//test puzzle progress
 array_copy(global.ClearedTestPuzzlesArraySaved,0,global.ClearedTestPuzzlesArray,0,array_length(global.ClearedTestPuzzlesArray))
-
-audio_play_sound(SND_TextBlip,0,0,1,0,.5)

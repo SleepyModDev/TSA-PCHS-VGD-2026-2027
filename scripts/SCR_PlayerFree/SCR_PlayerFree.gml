@@ -6,7 +6,9 @@ function Player_Free()
 	
 	//get previous x and y before moving
 	PrevX = x;
+	MovedX = 0;
 	PrevY = y;
+	MovedY = 0;
 	
 	//horizontal movement
 	if !place_meeting(x+HMove, y, O_WallCollision)
@@ -29,9 +31,4 @@ function Player_Free()
 		do y=y+sign(VMove); until place_meeting(x, y, O_WallCollision)
 		y=y-sign(VMove)
 	}
-	
-	//check if moved (used for animation control)
-	if PrevX != x {Moved = true}
-	if PrevY != y {Moved = true}
-	
 }
