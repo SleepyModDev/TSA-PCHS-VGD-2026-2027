@@ -5,7 +5,7 @@
   "bbox_bottom":63,
   "bbox_left":6,
   "bbox_right":26,
-  "bbox_top":10,
+  "bbox_top":9,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -22,7 +22,8 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"125d1150-8ea1-4a8b-8f99-f173092aa126","blendMode":0,"displayName":"default","isLocked":false,"name":"125d1150-8ea1-4a8b-8f99-f173092aa126","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"564555de-a62f-43d7-a5b3-f857d352521f","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"564555de-a62f-43d7-a5b3-f857d352521f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"125d1150-8ea1-4a8b-8f99-f173092aa126","blendMode":0,"displayName":"default","isLocked":false,"name":"125d1150-8ea1-4a8b-8f99-f173092aa126","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Player_Walk_R",
   "nineSlice":null,

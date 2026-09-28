@@ -5,8 +5,8 @@ if instance_exists(O_Textbox) or instance_exists(O_Warp) {global.FreezePlayer = 
 if !global.FreezePlayer {Player_Free()} // player state (add state machine later if needed)
 
 //check if moved (used for animation control)
-	if PrevX != x {MovedX = true}
-	if PrevY != y {MovedY = true}
+	if PrevX != x && !global.FreezePlayer {MovedX = true}
+	if PrevY != y && !global.FreezePlayer {MovedY = true}
 	
 	if !MovedX && !MovedY
 	{

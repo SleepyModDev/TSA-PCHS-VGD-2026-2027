@@ -1,10 +1,10 @@
 function SCR_CheckPipe(){
 	var pipes = [];
-var pipelitslolidonno = layer_get_all_elements("Pipes");
-for(var i = 0; i<array_length(pipelitslolidonno); i++)
+var PipeListArray = layer_get_all_elements("Pipes");
+for(var i = 0; i<array_length(PipeListArray); i++)
 {
-	if (layer_get_element_type(pipelitslolidonno[i]) == layerelementtype_instance) {
-        array_push(pipes, layer_instance_get_instance(pipelitslolidonno[i]));
+	if (layer_get_element_type(PipeListArray[i]) == layerelementtype_instance) {
+        array_push(pipes, layer_instance_get_instance(PipeListArray[i]));
     }
 }
 var pipetype;

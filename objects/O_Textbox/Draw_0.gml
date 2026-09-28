@@ -23,18 +23,19 @@ if SetUp = false
 			PortraitXOffset[p] = -60
 			
 			//character on the right
-			if SpeakerSide[p] == -1
+			if SpeakerSide[p] == 2
 			{
-				TextXOffset[p] = 8;
-				PortraitXOffset[p] = 216
+				TextXOffset[p] = -70;
+				PortraitXOffset[p] = 560
 			}
 			
 			//no character (center)
-			if SpeakerSprite[p] = noone
+			if SpeakerSprite[p] == noone
 			{
 				TextXOffset[p] = 0;
 			}
-			
+			if SpeakerSide[Page] != 2 { _SpeakerSide = 1} //intentionally not a temp var
+			if SpeakerSide[Page] == 2 { _SpeakerSide = -1}
 		//setting individual characters and finding where the lines should break
 		for (var c = 0; c < TextLength[p]; c++;)
 		{
@@ -181,8 +182,8 @@ if SpeakerSprite[Page] != noone
 	var _SpeakerX = TextboxX + PortraitXOffset[Page];
 	if SpeakerSide == -1 {_SpeakerX += sprite_width}
 	//draw the speaker
-	draw_sprite_ext(TextboxSprite[Page],TextboxImage, TextboxX + PortraitXOffset[Page], TextboxY-8, 2*sprite_width/TextboxSpriteWidth, 2*sprite_height/TextboxSpriteHeight, 0, c_white, 1)
-	draw_sprite_ext(sprite_index, image_index,_SpeakerX, TextboxY-8, SpeakerSide[Page]*2, 2, 0, c_white, 1)
+	draw_sprite_ext(TextboxSprite[Page],TextboxImage, TextboxX + PortraitXOffset[Page], TextboxY+4, (4*sprite_width/TextboxSpriteWidth), (4*(sprite_height+2)/TextboxSpriteHeight), 0, c_white, 1)
+	draw_sprite_ext(sprite_index, image_index,_SpeakerX, TextboxY+10, 4, 4, 0, c_white, 1)
 }
 
 //draw back of textbox

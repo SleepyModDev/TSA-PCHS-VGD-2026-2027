@@ -91,6 +91,19 @@ function Game_Text(_TextID)
 		break;
 		case "Puzzle Test Win" :
 			Text_SCR("Puzzle Completed :)")
+			break;
+		case "Jude Test" :
+			Text_SCR("My Name Is Jude", "Jude",1)
+			Text_Color(11,14,c_purple,c_purple,c_purple,c_purple)
+			Option_SCR("Coolio.", "JUDE TEST1")
+			Option_SCR("Okay.", "JUDE TEST2")
+		break;
+		case "JUDE TEST1" :
+			Text_SCR("Coolio.", "Jude",1)
+		break;
+		case "JUDE TEST2" :
+			Text_SCR("Okay.", "Jude",2)
+		break;
 		
 		#endregion error/test message
 	}
