@@ -132,7 +132,7 @@ if TextPauseTimer <=0
 TextPauseTimer--;
 
 //flip through pages------------------------------------
-if (KeySelectPressed or KeySkipHold) && FramesSinceFinished >= 15
+if (KeySelectPressed or KeySkipHold)
 {
 	//if typing done
 	if DrawChar == TextLength[Page]
@@ -178,7 +178,7 @@ TextboxSpriteHeight = sprite_get_height(S_MenuBoxBlack)
 if SpeakerSprite[Page] != noone
 {
 	sprite_index = SpeakerSprite[Page];
-	if DrawChar == TextLength[Page] {image_index = 0; FramesSinceFinished++}
+	if DrawChar == TextLength[Page] {image_index = 0;}
 	var _SpeakerX = TextboxX + PortraitXOffset[Page];
 	if SpeakerSide == -1 {_SpeakerX += sprite_width}
 	//draw the speaker
@@ -192,7 +192,7 @@ draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX, _TextboxY, Textbox
 //options-------------------------------
 
 	
-if DrawChar == TextLength[Page] && Page == PageNumber - 1 && FramesSinceFinished >= 10
+if DrawChar == TextLength[Page] && Page == PageNumber - 1
 {
 		//option select
 	OptionPos += KeyDownPressed - KeyUpPressed;

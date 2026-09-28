@@ -87,6 +87,7 @@
     {"id":{"name":"SCR_Textbox_Functions","path":"scripts/SCR_Textbox_Functions/SCR_Textbox_Functions.yy",},},
     {"id":{"name":"MUS_Pipes","path":"sounds/MUS_Pipes/MUS_Pipes.yy",},},
     {"id":{"name":"MUS_SpaceFight","path":"sounds/MUS_SpaceFight/MUS_SpaceFight.yy",},},
+    {"id":{"name":"MUS_SpaceHabitation","path":"sounds/MUS_SpaceHabitation/MUS_SpaceHabitation.yy",},},
     {"id":{"name":"MUS_TempPlaceholder1","path":"sounds/MUS_TempPlaceholder1/MUS_TempPlaceholder1.yy",},},
     {"id":{"name":"MUS_TempPlaceholder2","path":"sounds/MUS_TempPlaceholder2/MUS_TempPlaceholder2.yy",},},
     {"id":{"name":"SND_TextBlip","path":"sounds/SND_TextBlip/SND_TextBlip.yy",},},

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"MUS_SpaceFight",
+  "%Name":"MUS_SpaceHabitation",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":70.28573,
+  "duration":118.15388,
   "exportDir":"",
-  "name":"MUS_SpaceFight",
+  "name":"MUS_SpaceHabitation",
   "parent":{
     "name":"Music MUS_",
     "path":"folders/Audio [music and sounds]/Music MUS_.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"MUS_SpaceFight.wav",
-  "volume":0.15,
+  "soundFile":"MUS_SpaceHabitation.wav",
+  "volume":0.2,
 }

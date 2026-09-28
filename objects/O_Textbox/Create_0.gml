@@ -41,5 +41,3 @@ Set_Defaults_For_text();
 LastFreeSpace = 0;
 TextPauseTimer = 0;
 TextPauseTime = 16;
-
-FramesSinceFinished = 0;

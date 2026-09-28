@@ -93,7 +93,7 @@ function Game_Text(_TextID)
 			Text_SCR("Puzzle Completed :)")
 			break;
 		case "Jude Test" :
-			Text_SCR("My Name Is Jude", "Jude",1)
+			Text_SCR("My Name Is Jude and I am the player character.", "Jude",1)
 			Text_Color(11,14,c_purple,c_purple,c_purple,c_purple)
 			Option_SCR("Coolio.", "JUDE TEST1")
 			Option_SCR("Okay.", "JUDE TEST2")
@@ -106,5 +106,13 @@ function Game_Text(_TextID)
 		break;
 		
 		#endregion error/test message
+		
+		#region Region 1 Dialouge
+		
+		case "Terminal Technician Open Door" :
+			Text_SCR("Door Unlocked")
+			break;
+		
+		#endregion Region 1 Dialouge
 	}
 }
