@@ -87,6 +87,7 @@
     {"id":{"name":"MUS_TempPlaceholder2","path":"sounds/MUS_TempPlaceholder2/MUS_TempPlaceholder2.yy",},},
     {"id":{"name":"SND_TextBlip","path":"sounds/SND_TextBlip/SND_TextBlip.yy",},},
     {"id":{"name":"SND_TextBlip2","path":"sounds/SND_TextBlip2/SND_TextBlip2.yy",},},
+    {"id":{"name":"SND_TextBlip3","path":"sounds/SND_TextBlip3/SND_TextBlip3.yy",},},
     {"id":{"name":"S_BattleBox","path":"sprites/S_BattleBox/S_BattleBox.yy",},},
     {"id":{"name":"S_BattleMenuButtons","path":"sprites/S_BattleMenuButtons/S_BattleMenuButtons.yy",},},
     {"id":{"name":"S_BlankSquare","path":"sprites/S_BlankSquare/S_BlankSquare.yy",},},

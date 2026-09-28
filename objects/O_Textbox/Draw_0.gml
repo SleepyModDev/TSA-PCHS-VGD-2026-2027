@@ -132,7 +132,7 @@ if TextPauseTimer <=0
 TextPauseTimer--;
 
 //flip through pages------------------------------------
-if KeySelectPressed or KeySkipHold
+if (KeySelectPressed or KeySkipHold) && FramesSinceFinished >= 15
 {
 	//if typing done
 	if DrawChar == TextLength[Page]
@@ -178,7 +178,7 @@ TextboxSpriteHeight = sprite_get_height(S_MenuBoxBlack)
 if SpeakerSprite[Page] != noone
 {
 	sprite_index = SpeakerSprite[Page];
-	if DrawChar == TextLength[Page] {image_index = 0}
+	if DrawChar == TextLength[Page] {image_index = 0; FramesSinceFinished++}
 	var _SpeakerX = TextboxX + PortraitXOffset[Page];
 	if SpeakerSide == -1 {_SpeakerX += sprite_width}
 	//draw the speaker
@@ -192,7 +192,7 @@ draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX, _TextboxY, Textbox
 //options-------------------------------
 
 	
-if DrawChar == TextLength[Page] && Page == PageNumber - 1
+if DrawChar == TextLength[Page] && Page == PageNumber - 1 && FramesSinceFinished >= 10
 {
 		//option select
 	OptionPos += KeyDownPressed - KeyUpPressed;
@@ -204,7 +204,7 @@ if DrawChar == TextLength[Page] && Page == PageNumber - 1
 	{
 		//option box
 		var _OptionWidth = string_width(Option[o]) + _OptionBorder*2;
-		draw_sprite_ext(S_MenuBoxBlack, TextboxImage, _TextboxX + 32, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
+		draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX + 32, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
 		
 		//the arrow
 		if OptionPos == o

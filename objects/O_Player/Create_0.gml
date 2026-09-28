@@ -5,3 +5,4 @@ PlayerMaxHP = 10; //max health
 FaceDir = 0; //direction players facing
 image_xscale = 2
 image_yscale = image_xscale
+PreviousSprite = sprite_index

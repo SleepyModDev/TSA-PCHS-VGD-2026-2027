@@ -24,11 +24,11 @@ function Set_Defaults_For_text()
 	TextboxSprite[PageNumber] = S_MenuBoxBlack
 	SpeakerSprite[PageNumber] = noone
 	SpeakerSide[PageNumber] = 1;
-	Sound[PageNumber] = SND_TextBlip2;
-	Pitch[PageNumber] = .75
+	Sound[PageNumber] = SND_TextBlip3;
+	Pitch[PageNumber] = 1.15
 }
 
-//--------------Text VFX-------------------//
+#region //--------------Text VFX-------------------//
 
 /// @param FirstChar
 /// @param LastChar
@@ -71,6 +71,7 @@ function Text_Shake(_First, _Last,_Intensity)
 	}
 }
 
+#endregion //--------------Text VFX-------------------//
 //---------actual text stuff-------------//
 
 /// @param Text
@@ -91,7 +92,7 @@ function Text_SCR(_Text)
 			case "ERROR":
 			SpeakerSprite[PageNumber] = noone;
 			TextboxSprite[PageNumber] = S_MenuBoxError;
-			Sound[PageNumber] = SND_TextBlip2;
+			Sound[PageNumber] = SND_TextBlip3;
 			Pitch[PageNumber] = 1;
 				break;
 			

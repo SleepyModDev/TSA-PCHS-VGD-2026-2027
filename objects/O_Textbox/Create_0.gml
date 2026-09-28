@@ -3,7 +3,7 @@ depth = -99999;
 //textbox parameters
 TextboxWidth = 620;
 TextboxHeight = 160;
-Border = 8;
+Border = 12;
 Space = 24;
 LineWidth = TextboxWidth - Border*4;
 
@@ -41,3 +41,5 @@ Set_Defaults_For_text();
 LastFreeSpace = 0;
 TextPauseTimer = 0;
 TextPauseTime = 16;
+
+FramesSinceFinished = 0;

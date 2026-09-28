@@ -15,5 +15,5 @@ if room == RM_Test
 if room == RM_Test2
 
 {
-	Set_Song_Ingame(MUS_TempPlaceholder2,60,60)
+	Set_Song_Ingame(MUS_Pipes,60,60)
 }

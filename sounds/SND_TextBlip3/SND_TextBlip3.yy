@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"MUS_Pipes",
+  "%Name":"SND_TextBlip3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":64.0,
+  "duration":0.12634921,
   "exportDir":"",
-  "name":"MUS_Pipes",
+  "name":"SND_TextBlip3",
   "parent":{
-    "name":"Music MUS_",
-    "path":"folders/Audio [music and sounds]/Music MUS_.yy",
+    "name":"Sounds _SND",
+    "path":"folders/Audio [music and sounds]/Sounds _SND.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"MUS_Pipes.ogg",
-  "volume":0.15,
+  "soundFile":"SND_TextBlip3.wav",
+  "volume":1.0,
 }
