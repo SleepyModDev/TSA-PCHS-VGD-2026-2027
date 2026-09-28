@@ -9,3 +9,4 @@ _Check = instance_create_depth(1280,960,9999,O_BattleButton)
 with _Check {Type = "Check"}
 
 frame++
+

@@ -9,5 +9,8 @@ function Battle_Start(_EnemyType, _EnemyCount = 1, _RepairNeeded = 3, _EnemyDama
 		EnemiesInBattleRepairNeeded = _RepairNeeded;
 		EnemiesInBattleRepairProgress = array_create(2,0);
 		EnemyDamage = _EnemyDamage;
+
+		EnemyState1 = EnemyStates.Idle
+		if EnemyCount == 2 {EnemyState2 = EnemyStates.Idle}
 	}
 }
