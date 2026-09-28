@@ -10,7 +10,7 @@
 					draw_sprite_ext(S_TEMPENEMYSPRITES,4,960,480,4,4,0,c_white,1)
 					for (var i = 3; i > -1; --i) 
 					{
-					    draw_sprite_ext(S_TEMPENEMYSPRITES,i,960+(sin(current_time/800))*(8/(i+1)),480+(sin(current_time/400))*2,4,4,0,c_white,1)
+					    draw_sprite_ext(S_TEMPENEMYSPRITES,i,960+(sin(current_time/800))*(8/(i+1)),480+(sin(current_time/400))*(4/(i+1)),4,4,0,c_white,1)
 					}
 				break;
 			//Attack
@@ -19,7 +19,7 @@
 					draw_sprite_ext(S_TEMPENEMYSPRITESATTACK,4,960,480,4,4,0,c_white,1)
 					for (var i = 3; i > 0; --i) 
 					{
-					    draw_sprite_ext(S_TEMPENEMYSPRITESATTACK,i,960-(sin(current_time/800))*(8/(i+1)),480+(sin(current_time/400))*2,4,4,0,c_white,1)
+					    draw_sprite_ext(S_TEMPENEMYSPRITESATTACK,i,960-(sin(current_time/800))*(8/(i+1)),480+(sin(current_time/400))*(4/(i+1)),4,4,0,c_white,1)
 					}
 				break;
 		}

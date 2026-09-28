@@ -17,3 +17,7 @@ if room == RM_Test2
 {
 	Set_Song_Ingame(MUS_Pipes,60,60)
 }
+if room == RM_Battle
+{
+	Set_Song_Ingame(MUS_SpaceFight,0,0,1,8.57)
+}

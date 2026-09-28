@@ -3,7 +3,7 @@
 /// @param FadeInTime
 /// @param PitchOffset
 
-function Set_Song_Ingame(_Song, _FadeOutCurrentSong = 0, _FadeIn = 0, _Pitch = 1) //_Song=noone stops the ends music
+function Set_Song_Ingame(_Song, _FadeOutCurrentSong = 0, _FadeIn = 0, _Pitch = 1, _LoopPoint = 0) //_Song=noone stops the ends music
 {
 	with (O_MusicController)
 	{
@@ -11,5 +11,6 @@ function Set_Song_Ingame(_Song, _FadeOutCurrentSong = 0, _FadeIn = 0, _Pitch = 1
 		EndFadeOutTime = _FadeOutCurrentSong;
 		StartFadeInTime = _FadeIn;
 		PitchOffset = _Pitch;
+		LoopPoint = _LoopPoint;
 	}
 }

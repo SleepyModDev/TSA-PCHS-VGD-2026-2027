@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"MUS_SpaceFight",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":70.28571,
+  "exportDir":"",
+  "name":"MUS_SpaceFight",
+  "parent":{
+    "name":"Music MUS_",
+    "path":"folders/Audio [music and sounds]/Music MUS_.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MUS_SpaceFight.wav",
+  "volume":0.15,
+}
