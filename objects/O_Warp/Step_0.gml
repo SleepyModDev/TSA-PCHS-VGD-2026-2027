@@ -5,7 +5,7 @@ switch(State)
 	if SubImg < IMax + XMax + YMax {SubImg+=SubImgIncrement}
 	else
 	{
-		with O_Player
+		with O_PlayerOverworld
 			{
 			room_goto(RoomGoTo);
 			x = XGoTo

@@ -3,7 +3,7 @@
   "%Name":"S_Player_Walk_L",
   "bboxMode":0,
   "bbox_bottom":63,
-  "bbox_left":5,
+  "bbox_left":4,
   "bbox_right":25,
   "bbox_top":9,
   "collisionKind":1,

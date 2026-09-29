@@ -23,7 +23,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e26fa593-3b78-4f1e-b8ff-4985911a1d82","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"e26fa593-3b78-4f1e-b8ff-4985911a1d82","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"125d1150-8ea1-4a8b-8f99-f173092aa126","blendMode":0,"displayName":"default","isLocked":false,"name":"125d1150-8ea1-4a8b-8f99-f173092aa126","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"125d1150-8ea1-4a8b-8f99-f173092aa126","blendMode":0,"displayName":"default","isLocked":false,"name":"125d1150-8ea1-4a8b-8f99-f173092aa126","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"S_Player_Walk_D",
   "nineSlice":null,

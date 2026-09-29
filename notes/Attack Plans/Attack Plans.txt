@@ -1,0 +1,17 @@
+1- basic dot
+	just a basic projectile, could be homing or splitting or whatever we want
+
+2- fire
+	for fire based attacks
+	
+3- lighting
+	for electric based attacks
+	
+4- steam
+	for steam based attacks
+	
+5- falling spikes
+	spikes that will wait a moment then fall from the top
+	
+6- falling boxes
+	similar to falling blocks but will slowly fill up the battle box

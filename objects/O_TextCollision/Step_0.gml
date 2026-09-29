@@ -7,7 +7,7 @@ if !instance_exists(O_Textbox)
 	{
 		if CanTriggerAgain = true
 		{
-			if place_meeting(x, y, O_Player) && KeySelectPressed
+			if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed
 			{
 				if FreezePlayer {global.FreezePlayer = 1}
 				Create_Textbox(TextID)
@@ -15,7 +15,7 @@ if !instance_exists(O_Textbox)
 		}
 		else
 		{
-			if place_meeting(x, y, O_Player) && KeySelectPressed && Triggered = false
+			if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed && Triggered = false
 			{
 				if FreezePlayer {global.FreezePlayer = 1}
 				Create_Textbox(TextID)
@@ -27,7 +27,7 @@ if !instance_exists(O_Textbox)
 	{
 		if CanTriggerAgain = true
 		{
-			if place_meeting(x, y, O_Player) && !instance_exists(O_Textbox) && !global.FreezePlayer
+			if place_meeting(x, y, O_PlayerOverworld) && !instance_exists(O_Textbox) && !global.FreezePlayer
 			{
 				if FreezePlayer {global.FreezePlayer = 1}
 				Create_Textbox(TextID)
@@ -35,7 +35,7 @@ if !instance_exists(O_Textbox)
 		}
 		else
 		{
-			if place_meeting(x, y, O_Player) && !instance_exists(O_Textbox) && Triggered = false && !global.FreezePlayer
+			if place_meeting(x, y, O_PlayerOverworld) && !instance_exists(O_Textbox) && Triggered = false && !global.FreezePlayer
 			{
 				if FreezePlayer {global.FreezePlayer = 1}
 				Create_Textbox(TextID)

@@ -1,0 +1,1 @@
+EnemyState1 = EnemyStates.Attack

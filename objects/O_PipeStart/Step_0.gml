@@ -1,5 +1,5 @@
 Get_Controls();
-if place_meeting(x,y,O_Player)
+if place_meeting(x,y,O_PlayerOverworld)
 	{
 		if KeySelectPressed
 		{

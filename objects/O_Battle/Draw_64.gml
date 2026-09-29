@@ -21,6 +21,7 @@
 					{
 					    draw_sprite_ext(S_TEMPENEMYSPRITESATTACK,i,960-(sin(current_time/800))*(8/(i+1)),480+(sin(current_time/400))*(4/(i+1)),4,4,0,c_white,1)
 					}
+					draw_sprite_ext(S_TEMPENEMYSPRITESATTACK,5,960-(sin(current_time/800))*4,480-(64*4)+(sin(current_time/400))*2,4,4,current_time/40,c_white,1)
 				break;
 		}
 		break;

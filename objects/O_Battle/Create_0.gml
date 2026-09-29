@@ -1,8 +1,8 @@
-global.PlayerWasAtX = O_Player.x
-global.PlayerWasAtY = O_Player.y
+global.PlayerWasAtX = O_PlayerOverworld.x
+global.PlayerWasAtY = O_PlayerOverworld.y
 global.PlayerWasAtRoom = room
 
-instance_deactivate_object(O_Player)
+instance_deactivate_object(O_PlayerOverworld)
 instance_deactivate_object(O_CameraController)
 
 room_goto(RM_Battle)

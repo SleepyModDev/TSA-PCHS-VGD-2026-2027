@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"S_TEMPENEMYSPRITESATTACK",
   "bboxMode":0,
-  "bbox_bottom":127,
+  "bbox_bottom":158,
   "bbox_left":6,
   "bbox_right":88,
   "bbox_top":22,
@@ -17,17 +17,18 @@
     {"$GMSpriteFrame":"v1","%Name":"79ef8be5-44d8-4047-8d43-9de4250ea02f","name":"79ef8be5-44d8-4047-8d43-9de4250ea02f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"6ed8d715-0426-4e58-ac84-3d24f38ec09d","name":"6ed8d715-0426-4e58-ac84-3d24f38ec09d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"7d7faa7e-4218-45da-856b-3d9ac0ccc3f0","name":"7d7faa7e-4218-45da-856b-3d9ac0ccc3f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b2763b2-707f-4b14-82b6-bdbc7bb61060","name":"2b2763b2-707f-4b14-82b6-bdbc7bb61060","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":128,
+  "height":192,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"30ff7ed9-7718-4510-a13d-5a51e69581e6","blendMode":0,"displayName":"default","isLocked":false,"name":"30ff7ed9-7718-4510-a13d-5a51e69581e6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_TEMPENEMYSPRITESATTACK",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"Battle",
     "path":"folders/Objects O_ and Sprites S_/Battle.yy",
@@ -53,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -87,6 +88,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d7faa7e-4218-45da-856b-3d9ac0ccc3f0","path":"sprites/S_TEMPENEMYSPRITESATTACK/S_TEMPENEMYSPRITESATTACK.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"78b42089-6890-41ed-8ff3-d99a64cf94d5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b2763b2-707f-4b14-82b6-bdbc7bb61060","path":"sprites/S_TEMPENEMYSPRITESATTACK/S_TEMPENEMYSPRITESATTACK.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b11e48fd-b97a-4d9c-9f1d-d18f7b4eb0e6","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
