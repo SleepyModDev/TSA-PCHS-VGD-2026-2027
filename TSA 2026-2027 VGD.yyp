@@ -30,8 +30,6 @@
     {"$GMFolder":"","%Name":"Switch Maze Puzzle","folderPath":"folders/Objects O_ and Sprites S_/Puzzles/Switch Maze Puzzle.yy","name":"Switch Maze Puzzle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms RM_","folderPath":"folders/Rooms RM_.yy","name":"Rooms RM_","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts SCR_","folderPath":"folders/Scripts SCR_.yy","name":"Scripts SCR_","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tilesets TL_","folderPath":"folders/Tilesets TL_.yy","name":"Tilesets TL_","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[
@@ -76,6 +74,7 @@
     {"id":{"name":"O_Warp","path":"objects/O_Warp/O_Warp.yy",},},
     {"id":{"name":"RM_Battle","path":"rooms/RM_Battle/RM_Battle.yy",},},
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
+    {"id":{"name":"RM_MaintenenceOffice","path":"rooms/RM_MaintenenceOffice/RM_MaintenenceOffice.yy",},},
     {"id":{"name":"RM_StartScreen","path":"rooms/RM_StartScreen/RM_StartScreen.yy",},},
     {"id":{"name":"RM_Test","path":"rooms/RM_Test/RM_Test.yy",},},
     {"id":{"name":"RM_Test2","path":"rooms/RM_Test2/RM_Test2.yy",},},
@@ -145,6 +144,7 @@
     {"roomId":{"name":"RM_Test2","path":"rooms/RM_Test2/RM_Test2.yy",},},
     {"roomId":{"name":"RM_Test3","path":"rooms/RM_Test3/RM_Test3.yy",},},
     {"roomId":{"name":"RM_Battle","path":"rooms/RM_Battle/RM_Battle.yy",},},
+    {"roomId":{"name":"RM_MaintenenceOffice","path":"rooms/RM_MaintenenceOffice/RM_MaintenenceOffice.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

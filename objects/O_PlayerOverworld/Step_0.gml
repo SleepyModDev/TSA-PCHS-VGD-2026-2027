@@ -14,7 +14,7 @@ if !global.FreezePlayer {Player_Free()} // player state (add state machine later
 		image_speed = 0
 		image_index = FaceDir
 	}
-	if MovedX && !global.FreezePlayer
+	if MovedX && !MovedY && !global.FreezePlayer
 	{
 		if PrevX > x {sprite_index = S_Player_Walk_L; FaceDir = 2}
 		if PrevX < x {sprite_index = S_Player_Walk_R; FaceDir = 0}
