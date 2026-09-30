@@ -42,7 +42,7 @@
     ],
     "top":4,
   },
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"Collision",
     "path":"folders/Objects O_ and Sprites S_/Collision.yy",
@@ -95,7 +95,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":64,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
