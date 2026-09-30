@@ -1,7 +1,7 @@
 Get_Controls()
 
-TextboxX = camera_get_view_x(view_camera[0]) + 180;
-TextboxY = camera_get_view_y(view_camera[0]) + 360;
+TextboxX = camera_get_view_x(view_camera[0]) + 180/2;
+TextboxY = camera_get_view_y(view_camera[0]) + 360/2;
 
 //setup--------------------------------------
 if SetUp = false
@@ -19,14 +19,14 @@ if SetUp = false
 		//get x of text box
 		
 			//character on the left
-			TextXOffset[p] = 80;
-			PortraitXOffset[p] = -60
+			TextXOffset[p] = 80/2;
+			PortraitXOffset[p] = -60/2
 			
 			//character on the right
 			if SpeakerSide[p] == 2
 			{
-				TextXOffset[p] = -70;
-				PortraitXOffset[p] = 560
+				TextXOffset[p] = -70/2;
+				PortraitXOffset[p] = 560/2
 			}
 			
 			//no character (center)
@@ -182,8 +182,8 @@ if SpeakerSprite[Page] != noone
 	var _SpeakerX = TextboxX + PortraitXOffset[Page];
 	if SpeakerSide == -1 {_SpeakerX += sprite_width}
 	//draw the speaker
-	draw_sprite_ext(TextboxSprite[Page],TextboxImage, TextboxX + PortraitXOffset[Page], TextboxY+4, (4*sprite_width/TextboxSpriteWidth), (4*(sprite_height+2)/TextboxSpriteHeight), 0, c_white, 1)
-	draw_sprite_ext(sprite_index, image_index,_SpeakerX, TextboxY+10, 4, 4, 0, c_white, 1)
+	draw_sprite_ext(TextboxSprite[Page],TextboxImage, TextboxX + PortraitXOffset[Page], TextboxY+4, (2*sprite_width/TextboxSpriteWidth), (2*(sprite_height+4)/TextboxSpriteHeight), 0, c_white, 1)
+	draw_sprite_ext(sprite_index, image_index,_SpeakerX, TextboxY+8, 2, 2, 0, c_white, 1)
 }
 
 //draw back of textbox
@@ -198,22 +198,22 @@ if DrawChar == TextLength[Page] && Page == PageNumber - 1
 	OptionPos += KeyDownPressed - KeyUpPressed;
 	OptionPos = clamp(OptionPos, 0, OptionNumber-1)
 	//draw the options
-	var _OptionSpace = 60
+	var _OptionSpace = 40
 	var _OptionBorder = 8
 	for (var o = 0; o < OptionNumber; o++;)
 	{
 		//option box
 		var _OptionWidth = string_width(Option[o]) + _OptionBorder*2;
-		draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX + 32, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
+		draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX - 70, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
 		
 		//the arrow
 		if OptionPos == o
 		{
-			draw_sprite(S_MenuCursor,0,_TextboxX+12, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
+			draw_sprite(S_MenuCursor,0,_TextboxX-82, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
 		}
 		
 		//the text
-		draw_text(_TextboxX + 30 + _OptionBorder, _TextboxY - _OptionSpace*OptionNumber+4 + _OptionSpace*o + 2,Option[o]);
+		draw_text(_TextboxX - 70 + _OptionBorder, _TextboxY - _OptionSpace*OptionNumber+4 + _OptionSpace*o + 2,Option[o]);
 	}
 	
 }
