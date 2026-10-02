@@ -22,6 +22,7 @@
     {"$GMFolder":"","%Name":"Menus and dialouge boxes","folderPath":"folders/Objects O_ and Sprites S_/Menus and dialouge boxes.yy","name":"Menus and dialouge boxes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Other Sprites","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites.yy","name":"Other Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Props","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"debug stuff [also used for hitboxes]","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/debug stuff [also used for hitboxes].yy","name":"debug stuff [also used for hitboxes]","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI and other screen stuff","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/GUI and other screen stuff.yy","name":"GUI and other screen stuff","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu Sprites","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/Menu Sprites.yy","name":"Menu Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player Stuff","folderPath":"folders/Objects O_ and Sprites S_/Player Stuff.yy","name":"Player Stuff","resourceType":"GMFolder","resourceVersion":"2.0",},
