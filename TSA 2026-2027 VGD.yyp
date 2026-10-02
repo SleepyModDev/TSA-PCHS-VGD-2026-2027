@@ -71,6 +71,7 @@
     {"id":{"name":"O_PlayerData","path":"objects/O_PlayerData/O_PlayerData.yy",},},
     {"id":{"name":"O_PlayerOverworld","path":"objects/O_PlayerOverworld/O_PlayerOverworld.yy",},},
     {"id":{"name":"O_Prop","path":"objects/O_Prop/O_Prop.yy",},},
+    {"id":{"name":"O_PushBox","path":"objects/O_PushBox/O_PushBox.yy",},},
     {"id":{"name":"O_RoomTransition","path":"objects/O_RoomTransition/O_RoomTransition.yy",},},
     {"id":{"name":"O_SaveCollision","path":"objects/O_SaveCollision/O_SaveCollision.yy",},},
     {"id":{"name":"O_SettingsButton","path":"objects/O_SettingsButton/O_SettingsButton.yy",},},
@@ -80,6 +81,7 @@
     {"id":{"name":"O_WallCollision","path":"objects/O_WallCollision/O_WallCollision.yy",},},
     {"id":{"name":"O_Warp","path":"objects/O_Warp/O_Warp.yy",},},
     {"id":{"name":"RM_Battle","path":"rooms/RM_Battle/RM_Battle.yy",},},
+    {"id":{"name":"RM_BoxTest","path":"rooms/RM_BoxTest/RM_BoxTest.yy",},},
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"id":{"name":"RM_MaintenenceOffice","path":"rooms/RM_MaintenenceOffice/RM_MaintenenceOffice.yy",},},
     {"id":{"name":"RM_StartScreen","path":"rooms/RM_StartScreen/RM_StartScreen.yy",},},
@@ -158,6 +160,7 @@
     {"roomId":{"name":"RM_Test3","path":"rooms/RM_Test3/RM_Test3.yy",},},
     {"roomId":{"name":"RM_Battle","path":"rooms/RM_Battle/RM_Battle.yy",},},
     {"roomId":{"name":"RM_MaintenenceOffice","path":"rooms/RM_MaintenenceOffice/RM_MaintenenceOffice.yy",},},
+    {"roomId":{"name":"RM_BoxTest","path":"rooms/RM_BoxTest/RM_BoxTest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
