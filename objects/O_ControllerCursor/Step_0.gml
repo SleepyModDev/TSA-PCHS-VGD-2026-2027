@@ -15,6 +15,6 @@ x = buttonsExist[selected].x - 20;
 y = buttonsExist[selected].y + ((buttonsExist[selected].sprite_height/2) - 8);
 if(KeySelectPressed){
 	if(buttonsExist[selected].object_index == O_StartButton){
-		room_goto(RM_Test);
+		room_goto(RM_MaintenenceOffice);
 	}
 }
