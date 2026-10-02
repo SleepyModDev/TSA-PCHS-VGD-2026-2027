@@ -5,22 +5,48 @@ if !instance_exists(O_Textbox)
 {
 	if NeedInput
 	{
-		if CanTriggerAgain = true
+		if NeedFacing
 		{
-			if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed
+			if NeededFace == O_PlayerOverworld.FaceDir
 			{
-				if FreezePlayer {global.FreezePlayer = 1}
-				Create_Textbox(TextID)
+				if CanTriggerAgain = true
+				{
+					if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed
+					{
+						if FreezePlayer {global.FreezePlayer = 1}
+						Create_Textbox(TextID)
+					}
+				}
+				else
+				{
+					if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed && Triggered = false
+					{
+						if FreezePlayer {global.FreezePlayer = 1}
+						Create_Textbox(TextID)
+						Triggered = true
+					}
+				}
 			}
 		}
 		else
 		{
-			if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed && Triggered = false
-			{
-				if FreezePlayer {global.FreezePlayer = 1}
-				Create_Textbox(TextID)
-				Triggered = true
-			}
+			if CanTriggerAgain = true
+				{
+					if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed
+					{
+						if FreezePlayer {global.FreezePlayer = 1}
+						Create_Textbox(TextID)
+					}
+				}
+				else
+				{
+					if place_meeting(x, y, O_PlayerOverworld) && KeySelectPressed && Triggered = false
+					{
+						if FreezePlayer {global.FreezePlayer = 1}
+						Create_Textbox(TextID)
+						Triggered = true
+					}
+				}
 		}
 	}
 	else
