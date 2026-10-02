@@ -1,1 +1,1 @@
-room_goto(RM_StartScreen);
+room_goto(RM_MaintenenceOffice);
