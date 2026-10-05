@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_PlayerBattle",
+  "%Name":"O_ControllerCursor",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_PlayerBattle",
+  "name":"O_ControllerCursor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects O_ and Sprites S_/Battle.yy",
+    "name":"main menu obj and sprites",
+    "path":"folders/Objects O_ and Sprites S_/main menu obj and sprites.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_PlayerBattle",
-    "path":"sprites/S_PlayerBattle/S_PlayerBattle.yy",
+    "name":"S_ControllerCursor",
+    "path":"sprites/S_ControllerCursor/S_ControllerCursor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

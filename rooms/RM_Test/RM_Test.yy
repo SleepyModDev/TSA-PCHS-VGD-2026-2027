@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"RM_Test",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/RM_Test/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -76,8 +76,8 @@
   ],
   "name":"RM_Test",
   "parent":{
-    "name":"Rooms RM_",
-    "path":"folders/Rooms RM_.yy",
+    "name":"Test",
+    "path":"folders/Rooms RM_/Test.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

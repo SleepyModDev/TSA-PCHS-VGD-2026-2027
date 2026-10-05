@@ -148,8 +148,8 @@
   ],
   "name":"RM_Test2",
   "parent":{
-    "name":"Rooms RM_",
-    "path":"folders/Rooms RM_.yy",
+    "name":"Test",
+    "path":"folders/Rooms RM_/Test.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
