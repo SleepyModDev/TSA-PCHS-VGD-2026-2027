@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"debug stuff [also used for hitboxes]",
-    "path":"folders/Objects O_ and Sprites S_/Other Sprites/debug stuff [also used for hitboxes].yy",
+    "name":"Tilesets TL_",
+    "path":"folders/Tilesets TL_.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

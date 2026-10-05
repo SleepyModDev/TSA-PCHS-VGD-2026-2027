@@ -30,4 +30,3 @@ if !global.FreezePlayer {Player_Free()} // player state (add state machine later
 	}
 	
 	PreviousSprite = sprite_index
-	depth = -y

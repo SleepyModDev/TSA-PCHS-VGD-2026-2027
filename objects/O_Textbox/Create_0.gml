@@ -1,11 +1,11 @@
 depth = -99999;
 
 //textbox parameters
-TextboxWidth = 300;
-TextboxHeight = 80;
+TextboxWidth = 620/2;
+TextboxHeight = 160/2;
 Border = 8;
-Space = 12;
-LineWidth = TextboxWidth - Border*2.5;
+Space = 24/2;
+LineWidth = TextboxWidth - Border*4/2;
 
 TextboxSprite[0] = S_MenuBoxBlack;
 TextboxImage = 0;
