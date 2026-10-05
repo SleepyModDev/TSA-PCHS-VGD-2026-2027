@@ -3,9 +3,10 @@
   "%Name":"TL_PlainMetalTileset",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":8,
+    "SerialiseWidth":10,
+    "TileCompressedData":[-80,0,],
+    "TileDataFormat":1,
   },
   "name":"TL_PlainMetalTileset",
   "out_columns":6,

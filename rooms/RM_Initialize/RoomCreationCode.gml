@@ -1,1 +1,1 @@
-room_goto(RM_MaintenenceOffice)
+room_goto(RM_MaintenenceOffice01)

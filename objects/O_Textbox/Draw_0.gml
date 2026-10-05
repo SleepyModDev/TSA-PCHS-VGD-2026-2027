@@ -32,7 +32,7 @@ if SetUp = false
 			//no character (center)
 			if SpeakerSprite[p] == noone
 			{
-				TextXOffset[p] = 0;
+				TextXOffset[p] = -10;
 			}
 			if SpeakerSide[Page] != 2 { _SpeakerSide = 1} //intentionally not a temp var
 			if SpeakerSide[Page] == 2 { _SpeakerSide = -1}
