@@ -23,9 +23,12 @@
     {"$GMFolder":"","%Name":"Other Sprites","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites.yy","name":"Other Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
 <<<<<<< HEAD
     {"$GMFolder":"","%Name":"debug stuff","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/debug stuff.yy","name":"debug stuff","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
 =======
     {"$GMFolder":"","%Name":"debug stuff [also used for hitboxes]","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/debug stuff [also used for hitboxes].yy","name":"debug stuff [also used for hitboxes]","resourceType":"GMFolder","resourceVersion":"2.0",},
 >>>>>>> 837d20180728250bcf8120a1b792c0f944fceb5c
+=======
+>>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"GUI and other screen stuff","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/GUI and other screen stuff.yy","name":"GUI and other screen stuff","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu Sprites","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/Menu Sprites.yy","name":"Menu Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Props","folderPath":"folders/Objects O_ and Sprites S_/Other Sprites/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
