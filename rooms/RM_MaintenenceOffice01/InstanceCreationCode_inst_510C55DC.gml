@@ -1,3 +1,3 @@
-TextID = "Terminal Maintenence Room Unlock Door"
+TextID = "Terminal Maintenence Habitation"
 NeedFacing = true
 NeededFace = 1

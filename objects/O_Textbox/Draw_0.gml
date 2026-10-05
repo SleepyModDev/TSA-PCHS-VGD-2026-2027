@@ -105,13 +105,16 @@ if TextPauseTimer <=0
 		DrawChar += TextSpd;
 		DrawChar = clamp(DrawChar, 0, TextLength[Page]);
 		var _CheckChar = string_char_at(Text[Page], DrawChar);
-		if _CheckChar == "." or _CheckChar == "?" or _CheckChar == "!" or _CheckChar == ","
+		var _CheckCharNext = string_char_at(Text[Page], DrawChar+1);
+		var _CheckCharNextAgain = string_char_at(Text[Page], DrawChar+2);
+		if _CheckChar == "." or _CheckChar == "?" or _CheckChar == "!" or _CheckChar == "," or _CheckChar == ":"
 		{
 			TextPauseTimer = TextPauseTime
 					if _CheckChar == ","
 				{
 					TextPauseTimer = TextPauseTime/2
 				}
+				
 		}
 		else
 		{
@@ -123,9 +126,13 @@ if TextPauseTimer <=0
 			else
 			{
 				SoundCount = 0;
-				audio_play_sound(Sound[Page], 8, false, 1, 0, Pitch[Page] + random_range(-.05,.05))
+				audio_play_sound(Sound[Page], 8, false, .8, 0, Pitch[Page] + random_range(-.05,.05))
 			}
 		}
+		if _CheckCharNext == "." && _CheckCharNextAgain == "."
+			{
+				TextPauseTimer = TextPauseTime*1.5
+			}
 
 	}
 }
