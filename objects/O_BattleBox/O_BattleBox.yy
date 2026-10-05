@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_PlayerBattle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_BattleBox",
+  "eventList":[],
   "managed":true,
-  "name":"O_PlayerBattle",
+  "name":"O_BattleBox",
   "overriddenProperties":[],
   "parent":{
     "name":"Battle",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_PlayerBattle",
-    "path":"sprites/S_PlayerBattle/S_PlayerBattle.yy",
+    "name":"S_BattleBox",
+    "path":"sprites/S_BattleBox/S_BattleBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

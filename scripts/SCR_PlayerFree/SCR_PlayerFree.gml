@@ -10,6 +10,11 @@ function Player_Free()
 	PrevY = y;
 	MovedY = 0;
 	
+	if KeyUpHeld {FaceDir = 1}
+	if KeyRightHeld {FaceDir = 2}
+	if KeyLeftHeld {FaceDir = 3}
+	if KeyRightHeld {FaceDir = 0}
+	
 	//horizontal movement
 	if !place_meeting(x+HMove, y, O_WallCollision)
 	{
