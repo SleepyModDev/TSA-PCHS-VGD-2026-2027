@@ -104,6 +104,7 @@
     {"id":{"name":"S_BasicAttackDot","path":"sprites/S_BasicAttackDot/S_BasicAttackDot.yy",},},
     {"id":{"name":"S_BasicAttackFire","path":"sprites/S_BasicAttackFire/S_BasicAttackFire.yy",},},
     {"id":{"name":"S_BasicAttackLightning","path":"sprites/S_BasicAttackLightning/S_BasicAttackLightning.yy",},},
+    {"id":{"name":"S_BasicAttackLine","path":"sprites/S_BasicAttackLine/S_BasicAttackLine.yy",},},
     {"id":{"name":"S_BasicAttackSpike","path":"sprites/S_BasicAttackSpike/S_BasicAttackSpike.yy",},},
     {"id":{"name":"S_BasicAttacksSteam","path":"sprites/S_BasicAttacksSteam/S_BasicAttacksSteam.yy",},},
     {"id":{"name":"S_BattleBG","path":"sprites/S_BattleBG/S_BattleBG.yy",},},
