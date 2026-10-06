@@ -14,19 +14,19 @@ function checkNext(NextPD, pArray, ArrayID)
 	var DirectionY = 0;
 	if(NextPD==0)
 	{
-		DirectionX = 64;
+		DirectionX = 32;
 	}
 	if(NextPD==1)
 	{
-		DirectionY = -64;
+		DirectionY = -32;
 	}
 	if(NextPD==2)
 	{
-		DirectionX = -64;
+		DirectionX = -32;
 	}
 	if(NextPD==3)
 	{
-		DirectionY = 64;
+		DirectionY = 32;
 	}
 	{
 	var allowMove = false;
@@ -34,11 +34,11 @@ function checkNext(NextPD, pArray, ArrayID)
 		{
 		if(x + DirectionX == pArray.x && y == pArray.y)
 		{
+			//---------------Win--------------
 			if(ArrayID.object_index == O_PipeEnd)
 			{
 				show_debug_message("win");
-				if room = RM_Test2 {array_set(global.ClearedTestPuzzlesArray, 0, true)}
-				Create_Textbox("Puzzle Test Win")
+				if room = RM_Habitation01 {array_set(global.ClearedPuzzlesArea1Array, 0, true)}
 				instance_destroy(O_PipeChecker);
 			}
 			//straight does not need positive or negative check
@@ -59,14 +59,14 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 1)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 1;
 						instance_destroy();
 					}
 					if(pArray.RotationDir == 2)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 3;
 						instance_destroy();
 					}
@@ -76,8 +76,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 0)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 0;
 						newCheckerB.pipeDirection = 3;
 						instance_destroy();
@@ -85,8 +85,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 2)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 0;
 						newCheckerB.pipeDirection = 1;
 						instance_destroy();
@@ -94,8 +94,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 1)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x+64, y, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x+32, y, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 1;
 						newCheckerB.pipeDirection = 3;
 						instance_destroy();
@@ -108,14 +108,14 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 0)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 1;
 						instance_destroy();
 					}
 					if(pArray.RotationDir == 3)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 3;
 						instance_destroy();
 					}
@@ -125,8 +125,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 0)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 2;
 						newCheckerB.pipeDirection = 3;
 						instance_destroy();
@@ -134,8 +134,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 3)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 1;
 						newCheckerB.pipeDirection = 3;
 						instance_destroy();
@@ -143,8 +143,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 2)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x-64, y, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x-32, y, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 2;
 						newCheckerB.pipeDirection = 1;
 						instance_destroy();
@@ -161,8 +161,7 @@ function checkNext(NextPD, pArray, ArrayID)
 			if(ArrayID.object_index == O_PipeEnd)
 			{
 				show_debug_message("win");
-				if room = RM_Test2 {array_set(global.ClearedTestPuzzlesArray, 0, true)}
-				Create_Textbox("Puzzle Test Win")
+				if room = RM_Habitation01 {array_set(global.ClearedPuzzlesArea1Array, 0, true)}
 				instance_destroy(O_PipeChecker);
 			}
 			if(ArrayID.object_index == O_PipeSegmentStraight)
@@ -182,14 +181,14 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 0)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 0;
 						instance_destroy();
 					}
 					if(pArray.RotationDir == 1)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 2;
 						instance_destroy();
 					}
@@ -199,8 +198,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 1)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 2;
 						newCheckerB.pipeDirection = 3;
 						instance_destroy();
@@ -208,8 +207,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 3)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 0;
 						newCheckerB.pipeDirection = 3;
 						instance_destroy();
@@ -217,8 +216,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 2)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x, y+64, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x, y+32, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 0;
 						newCheckerB.pipeDirection = 2;
 						instance_destroy();
@@ -231,14 +230,14 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 2)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 2;
 						instance_destroy();
 					}
 					if(pArray.RotationDir == 3)
 					{
 						allowMove = true;
-						var newChecker = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
+						var newChecker = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
 						newChecker.pipeDirection = 0;
 						instance_destroy();
 					}
@@ -248,8 +247,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 0)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 0;
 						newCheckerB.pipeDirection = 2;
 						instance_destroy();
@@ -257,8 +256,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 1)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 2;
 						newCheckerB.pipeDirection = 1;
 						instance_destroy();
@@ -266,8 +265,8 @@ function checkNext(NextPD, pArray, ArrayID)
 					if(pArray.RotationDir == 3)
 					{
 						allowMove = true;
-						var newCheckerA = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
-						var newCheckerB = instance_create_layer(x, y-64, "Instances", O_PipeChecker);
+						var newCheckerA = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
+						var newCheckerB = instance_create_layer(x, y-32, "Instances", O_PipeChecker);
 						newCheckerA.pipeDirection = 1;
 						newCheckerB.pipeDirection = 0;
 						instance_destroy();

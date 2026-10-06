@@ -112,12 +112,21 @@ function Game_Text(_TextID)
 		case "Terminal Maintenence Habitation" :
 		if !array_get(global.SeenTextArray,0)
 		{
+<<<<<<< Updated upstream
 			Text_SCR("Alert : Severe plasma storms across the surface have caused 18 failures across 6 sectors within the Theta Facility.")
 			Text_SCR("Repairs are needed in the following sectors: Habitation, Production, Storage, Agriculture, Power, Computation.")
 			Text_SCR("Error: Unable to open maintenence tunnel routes, tunnel exits will need to be manually activated from within the sectors")
 			Text_SCR("Emergency door into Habitation remains accessible, unlocking door now.... Door Unlocked.")
 			Text_SCR("Warning: Habitation light failure. Habitation door locks failure. Habitation security failure.")
 			Text_SCR("Habitation failures must be resolved before proceeding to other sectors in need of repair.")
+=======
+			Text_SCR("Alert: Severe plasma storms across the surface have caused 18 failures across 6 sectors within the Theta Facility.")
+			Text_SCR("Repairs are needed in the following sectors: Habitation, Production, Storage, Agriculture, Power, Computation.")
+			Text_SCR("Error: Unable to open maintenence tunnel routes, tunnel exits will need to be manually activated from within the sectors")
+			Text_SCR("Emergency door into Habitation remains accessible, unlocking door now...")
+			Text_SCR("Door Unlocked. Warning: Habitation light failure. Habitation door locks failure. Habitation security failure")
+			Text_SCR("Habitation failures must be resolved before proceeding to other sectors in need of repair. Good luck, Name Not In Database.")
+>>>>>>> Stashed changes
 			array_set(global.SeenTextArray,0,1)
 		}
 		else
