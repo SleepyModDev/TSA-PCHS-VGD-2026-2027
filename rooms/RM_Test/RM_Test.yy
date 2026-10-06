@@ -71,7 +71,7 @@
           -15,4,2,11,8,-19,4,2,14,8,-3,4,6,5,4,4,5,4,5,-10,4,2,14,0,-3,17,6,13,4,4,10,4,10,-11,4,1,8,-6,4,3,15,
           4,15,-11,4,1,8,-6,4,3,14,4,14,-10,4,11,1,25,2,17,17,18,4,4,14,4,14,-10,4,3,6,0,8,-18,4,6,6,0,25,2,2,
           3,-15,4,1,6,-4,0,1,25,-3,2,1,3,-3,4,1,1,-7,2,1,26,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TL_TestTileset","path":"tilesets/TL_TestTileset/TL_TestTileset.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"RM_Test",

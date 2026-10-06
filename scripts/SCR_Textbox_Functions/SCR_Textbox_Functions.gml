@@ -91,7 +91,15 @@ function Text_SCR(_Text)
 			//---------ERROR--------------//
 			case "ERROR":
 			SpeakerSprite[PageNumber] = noone;
-			TextboxSprite[PageNumber] = S_MenuBoxError;
+			TextboxSprite[PageNumber] = S_MenuBoxRed;
+			Sound[PageNumber] = SND_TextBlip3;
+			Pitch[PageNumber] = 1;
+				break;
+				
+				//---------Terminal Green--------------//
+			case "Terminal Green":
+			SpeakerSprite[PageNumber] = noone;
+			TextboxSprite[PageNumber] = S_MenuBoxGreen;
 			Sound[PageNumber] = SND_TextBlip3;
 			Pitch[PageNumber] = 1;
 				break;
@@ -100,14 +108,14 @@ function Text_SCR(_Text)
 			#region JUDE
 			case "Jude":
 			SpeakerSprite[PageNumber] = S_JudeTalk; 
-			TextboxSprite[PageNumber] = S_MenuBoxJude;
+			TextboxSprite[PageNumber] = S_MenuBoxPurple;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = 1
 				break;
 				
 			case "Jude Pitch Down":
 			SpeakerSprite[PageNumber] = S_JudeTalk; 
-			TextboxSprite[PageNumber] = S_MenuBoxJude;
+			TextboxSprite[PageNumber] = S_MenuBoxPurple;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = .9
 				break;

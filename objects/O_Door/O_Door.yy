@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_InteractCollision",
+  "%Name":"O_Door",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_PlayerOverworld","path":"objects/O_PlayerOverworld/O_PlayerOverworld.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_InteractCollision",
+  "name":"O_Door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collision",
-    "path":"folders/Objects O_ and Sprites S_/Collision.yy",
+    "name":"Controllers",
+    "path":"folders/Objects O_ and Sprites S_/Controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_InteractCollision",
-    "path":"sprites/S_InteractCollision/S_InteractCollision.yy",
+    "name":"S_DoorsPlainMetal",
+    "path":"sprites/S_DoorsPlainMetal/S_DoorsPlainMetal.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

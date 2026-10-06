@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"S_PlainMetalTileset",
   "bboxMode":0,
-  "bbox_bottom":191,
+  "bbox_bottom":255,
   "bbox_left":0,
   "bbox_right":191,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":32,
   "gridY":32,
-  "height":192,
+  "height":256,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2f046c43-3842-453f-8dad-33113774a963","blendMode":0,"displayName":"default","isLocked":false,"name":"2f046c43-3842-453f-8dad-33113774a963","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

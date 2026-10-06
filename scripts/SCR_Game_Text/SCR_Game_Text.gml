@@ -109,16 +109,22 @@ function Game_Text(_TextID)
 		
 		#region Region 1 Dialouge
 		
+		case "Maintenence Door Locked" :
+			Text_SCR("You push the button...")
+			Text_SCR("The door seems to be locked.")
+			break;
 		case "Terminal Maintenence Habitation" :
 		if !array_get(global.SeenTextArray,0)
 		{
-			Text_SCR("Alert: Severe plasma storms across the surface have caused 18 failures across 6 sectors within the Theta Facility.")
-			Text_SCR("Repairs are needed in the following sectors: Habitation, Production, Storage, Agriculture, Power, Computation.")
-			Text_SCR("Error: Unable to open maintenence tunnel routes, tunnel exits will need to be manually activated from within the sectors")
-			Text_SCR("Emergency door into Habitation remains accessible, unlocking door now...")
-			Text_SCR("Door Unlocked. Warning: Habitation light failure. Habitation door locks failure. Habitation security failure")
-			Text_SCR("Habitation failures must be resolved before proceeding to other sectors in need of repair. Good luck, Name Not In Database.")
+			Text_SCR("Alert: Severe plasma storms across the surface have caused 18 failures across 6 sectors within the Theta Facility.","Terminal Green")
+			Text_SCR("Repairs are needed in the following sectors: Habitation, Production, Storage, Agriculture, Power, Computation.","Terminal Green")
+			Text_SCR("Error: Unable to open maintenence tunnel routes, tunnel exits will need to be manually activated from within the sectors","Terminal Green")
+			Text_SCR("Emergency door into Habitation remains accessible, unlocking door now...","Terminal Green")
+			array_set(global.OpenedDoorsArray,0,1)
+			Text_SCR("Door Unlocked. Warning: Habitation light failure. Habitation door locks failure. Habitation security failure","Terminal Green")
+			Text_SCR("Habitation failures must be resolved before proceeding to other sectors in need of repair. Good luck, Name Not In Database.","Terminal Green")
 			array_set(global.SeenTextArray,0,1)
+			
 		}
 		else
 		{
@@ -126,7 +132,7 @@ function Game_Text(_TextID)
 			for (var i = 0; i < 3; ++i) {
 			    if !array_get(global.ClearedPuzzlesArea1Array,i) {_FailuresLeft++}
 			}
-			Text_SCR(string_concat("Habitation sector failures remaining: ",string(_FailuresLeft), ""))
+			Text_SCR(string_concat("Habitation sector failures remaining: ",string(_FailuresLeft), ""),"Terminal Green")
 		}
 			break;
 		
