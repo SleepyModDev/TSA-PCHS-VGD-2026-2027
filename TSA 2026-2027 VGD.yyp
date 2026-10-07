@@ -136,6 +136,7 @@
     {"id":{"name":"S_Player_Walk_R","path":"sprites/S_Player_Walk_R/S_Player_Walk_R.yy",},},
     {"id":{"name":"S_Player_Walk_U","path":"sprites/S_Player_Walk_U/S_Player_Walk_U.yy",},},
     {"id":{"name":"S_PlayerBattle","path":"sprites/S_PlayerBattle/S_PlayerBattle.yy",},},
+    {"id":{"name":"S_PushBox","path":"sprites/S_PushBox/S_PushBox.yy",},},
     {"id":{"name":"S_RoomTransition","path":"sprites/S_RoomTransition/S_RoomTransition.yy",},},
     {"id":{"name":"S_SaveCollision","path":"sprites/S_SaveCollision/S_SaveCollision.yy",},},
     {"id":{"name":"S_ScreenBorder","path":"sprites/S_ScreenBorder/S_ScreenBorder.yy",},},
