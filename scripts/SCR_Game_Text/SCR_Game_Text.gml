@@ -129,10 +129,11 @@ function Game_Text(_TextID)
 		else
 		{
 			var _FailuresLeft = 0
-			for (var i = 0; i < 3; ++i) {
+			for (var i = 0; i < 3; ++i) 
+			{
 			    if !array_get(global.ClearedPuzzlesArea1Array,i) {_FailuresLeft++}
 			}
-			Text_SCR(string_concat("Habitation sector failures remaining: ",string(_FailuresLeft), ""),"Terminal Green")
+			Text_SCR(string_concat("Habitation sector failures remaining: ",string(_FailuresLeft)),"Terminal Green")
 		}
 			break;
 			
