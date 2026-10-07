@@ -13,6 +13,10 @@ global.ClearedTestPuzzlesArraySaved = array_create(15,false)
 global.SeenTextArray = array_create(5000,false) //prob wont use all of these but better safe then sorry
 global.SeenTextArraySaved = array_create(5000,false)
 
+//Trigger stuff
+global.TriggeredTriggersArray = array_create(5000,false) //prob wont use all of these but better safe then sorry
+global.TriggeredTriggersArraySaved = array_create(5000,false)
+
 //door stuff
 global.OpenedDoorsArray = array_create(500,false) //prob wont use all of these but better safe then sorry
 global.OpenedDoorsArraySaved = array_create(500,false)

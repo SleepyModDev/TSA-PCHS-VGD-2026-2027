@@ -135,6 +135,10 @@ function Game_Text(_TextID)
 			Text_SCR(string_concat("Habitation sector failures remaining: ",string(_FailuresLeft), ""),"Terminal Green")
 		}
 			break;
+			
+		case "To Habitation Lights Out" :
+			Text_SCR("! The lights went out...")
+			Text_SCR("Until the lights are restored you'll have to rely on the limited light from your headlamp to make repairs.")
 		
 		#endregion Region 1 Dialouge
 	}

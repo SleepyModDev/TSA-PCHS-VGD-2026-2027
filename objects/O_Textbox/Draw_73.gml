@@ -1,7 +1,9 @@
 Get_Controls()
-
-TextboxX = camera_get_view_x(view_camera[0]) + 180/2;
-TextboxY = camera_get_view_y(view_camera[0]) + 360/2;
+TextSurface = surface_create(480,270)
+surface_set_target(self.TextSurface);
+camera_apply(0);
+TextboxX =180/2;
+TextboxY =360/2;
 
 //setup--------------------------------------
 if SetUp = false
@@ -259,3 +261,5 @@ for (var c = 0; c < DrawChar; c++;)
 	//the text
 	draw_text_color(CharX[c, Page] + _ShakeX, CharY[c, Page] + _ShakeY + _FloatY, Char[c, Page], TextCol1[c, Page], TextCol2[c, Page], TextCol3[c, Page], TextCol4[c, Page], 1)
 }
+
+surface_reset_target()

@@ -145,7 +145,7 @@ function Option_SCR(_Option, _LinkID)
 /// @param TextID
 function Create_Textbox(_TextID)
 {
-	with (instance_create_depth(0, 0, -99999, O_Textbox))
+	with (instance_create_depth(0, 0, -99, O_Textbox))
 	{
 		Game_Text(_TextID)
 	}

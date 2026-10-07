@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"RM_MainenenceOffice02",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/RM_MainenenceOffice02/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -16,6 +16,7 @@
     {"name":"inst_1C01C9CF","path":"rooms/RM_MainenenceOffice02/RM_MainenenceOffice02.yy",},
     {"name":"inst_1DEB85BC","path":"rooms/RM_MainenenceOffice02/RM_MainenenceOffice02.yy",},
     {"name":"inst_44CE3507","path":"rooms/RM_MainenenceOffice02/RM_MainenenceOffice02.yy",},
+    {"name":"inst_25BCDA38","path":"rooms/RM_MainenenceOffice02/RM_MainenenceOffice02.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -32,6 +33,7 @@
         {"$GMRInstance":"v4","%Name":"inst_1C01C9CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C01C9CF","objectId":{"name":"O_WallCollision","path":"objects/O_WallCollision/O_WallCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.0,"x":304.0,"y":1024.0,},
         {"$GMRInstance":"v4","%Name":"inst_1DEB85BC","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DEB85BC","objectId":{"name":"O_RoomTransition","path":"objects/O_RoomTransition/O_RoomTransition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":256.0,"y":992.0,},
         {"$GMRInstance":"v4","%Name":"inst_44CE3507","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44CE3507","objectId":{"name":"O_CheckpointCollision","path":"objects/O_CheckpointCollision/O_CheckpointCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":256.0,"y":944.0,},
+        {"$GMRInstance":"v4","%Name":"inst_25BCDA38","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25BCDA38","objectId":{"name":"O_InteractCollision","path":"objects/O_InteractCollision/O_InteractCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.75,"x":256.0,"y":600.0,},
       ],"layers":[],"name":"Collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TilesetLayer1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TilesetLayer1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":32,"SerialiseWidth":16,"TileCompressedData":[
           -6,0,4,3,4,4,5,-5,0,1,-2147483648,-6,0,4,18,24,25,19,-5,0,1,-2147483648,-6,0,4,9,30,31,11,-5,0,1,-2147483648,

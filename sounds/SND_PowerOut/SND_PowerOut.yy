@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"SND_PowerOut",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":8.794267,
+  "exportDir":"",
+  "name":"SND_PowerOut",
+  "parent":{
+    "name":"Sounds _SND",
+    "path":"folders/Audio [music and sounds]/Sounds _SND.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"SND_PowerOut.ogg",
+  "volume":1.0,
+}
