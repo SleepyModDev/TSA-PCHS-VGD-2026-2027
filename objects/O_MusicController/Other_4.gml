@@ -1,8 +1,9 @@
 /// @description Play the correct music
 
-if room == noone
+if room == RM_MaintenenceOffice01
+|| RM_MaintenenceOffice02
 {
-	Set_Song_Ingame(MUS_TempPlaceholder1,0,60)
+	Set_Song_Ingame(freesound_community_mechanical_hum_64405,60,60)
 }
 
 if room == RM_Test
@@ -12,7 +13,7 @@ if room == RM_Test
 	Set_Song_Ingame(MUS_TempPlaceholder1,60,60)
 }
 
-if room == RM_Test2
+if room == RM_Habitation01
 
 {
 	Set_Song_Ingame(MUS_Pipes,60,60)

@@ -1,3 +1,3 @@
-TargetRoom = RM_MainenenceOffice02;
+TargetRoom = RM_MaintenenceOffice02;
 TargetX = 256;
 TargetY =944;

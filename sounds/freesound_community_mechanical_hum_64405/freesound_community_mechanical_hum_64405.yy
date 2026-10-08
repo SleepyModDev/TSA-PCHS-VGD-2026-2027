@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"SND_TextBlip",
+  "%Name":"freesound_community_mechanical_hum_64405",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.056507938,
+  "duration":31.92,
   "exportDir":"",
-  "name":"SND_TextBlip",
+  "name":"freesound_community_mechanical_hum_64405",
   "parent":{
-    "name":"Sounds _SND",
-    "path":"folders/Audio [music and sounds]/Sounds _SND.yy",
+    "name":"Ambience",
+    "path":"folders/Audio [music and sounds]/Ambience.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SND_TextBlip.wav",
-  "volume":0.28,
+  "soundFile":"freesound_community_mechanical_hum_64405.mp3",
+  "volume":0.25,
 }

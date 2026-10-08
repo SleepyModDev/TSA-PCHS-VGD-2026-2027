@@ -18,12 +18,12 @@ var _Scale =2 + 0.125*sin(current_time/2000);
 
 with(O_LightInstance)
 {
-	draw_sprite_ext(_Light_Sprite, 0, self.x, self.y, _Scale*.5, _Scale*.5, 0,c_white, .8);
+	draw_sprite_ext(_Light_Sprite, 0, self.x, self.y, _Scale*self.Scale, _Scale*self.Scale, 0,c_white, self.Power);
 }
 
 with(O_PlayerOverworld)
 {
-	draw_sprite_ext(_Light_Sprite, 0, self.x, self.y-28, _Scale*.75, _Scale*.65, 0,c_white, 1);
+	draw_sprite_ext(_Light_Sprite, 0, self.x, self.y-28, _Scale*.65, _Scale*.65, 0,c_white, .8);
 }
 
 with(O_PipeEnd)

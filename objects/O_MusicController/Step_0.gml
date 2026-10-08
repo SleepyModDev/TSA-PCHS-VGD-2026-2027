@@ -19,8 +19,8 @@ if SongAsset != SongTargetAsset
 	}
 	
 	//play new song if old has faded out
-	if array_length(FadeOutInstances) == 0
-	{
+	//if array_length(FadeOutInstances) == 0
+	//{
 		if audio_exists(SongTargetAsset)
 		{
 			//play song and store as variable
@@ -29,7 +29,7 @@ if SongAsset != SongTargetAsset
 			//start volume at 0
 			audio_sound_gain(SongInstance, 0, 0);
 			FadeInInstVol = 0;
-		}
+		//}
 		SongAsset = SongTargetAsset;
 	}
 }

@@ -1,3 +1,3 @@
-TargetRoom = RM_MaintenenceOffice01
-TargetX = 384
+TargetRoom = RM_MaintenenceOffice02
+TargetX = 256
 TargetY = 112

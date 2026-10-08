@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"SND_TextBlip",
+  "%Name":"_2013_10_18_Brink___David_Fesliyan",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.056507938,
+  "duration":160.05225,
   "exportDir":"",
-  "name":"SND_TextBlip",
+  "name":"_2013_10_18_Brink___David_Fesliyan",
   "parent":{
-    "name":"Sounds _SND",
-    "path":"folders/Audio [music and sounds]/Sounds _SND.yy",
+    "name":"Music MUS_",
+    "path":"folders/Audio [music and sounds]/Music MUS_.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SND_TextBlip.wav",
-  "volume":0.28,
+  "soundFile":"_2013_10_18_Brink___David_Fesliyan.mp3",
+  "volume":0.34,
 }
