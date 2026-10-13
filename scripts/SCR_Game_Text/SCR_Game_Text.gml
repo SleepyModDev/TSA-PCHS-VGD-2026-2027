@@ -166,9 +166,9 @@ function Game_Text(_TextID)
 			break;
 			
 		case "HabNPC1 Dialouge Option 2" :
-			Text_SCR("Jude, I'm here to fix the failures caused by the plasma storms on the surface.", "Jude Happy")
+			Text_SCR("Jude, I'm here to fix the failures caused by the plasma storms on the surface.", "Jude")
 			Text_SCR("Please be quick Jude, I hate being in the dark! I keep hearing something scuttering about in here and it's freaking me out!")
-			Text_SCR("Alright, the lights will be back in no time, promise.", "Jude Happy")
+			Text_SCR("Alright, the lights will be back in no time, promise.", "Jude")
 			global.IntroducedJudeToHabNPC1 = 1
 			array_set(global.SeenTextArray,1,1)
 			break;

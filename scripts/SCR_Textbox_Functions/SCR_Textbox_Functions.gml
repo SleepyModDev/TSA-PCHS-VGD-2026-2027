@@ -107,14 +107,14 @@ function Text_SCR(_Text)
 			//---------JUDE--------------//
 			#region JUDE
 			case "Jude":
-			SpeakerSprite[PageNumber] = S_JudeTalk; 
+			SpeakerSprite[PageNumber] = noone; 
 			TextboxSprite[PageNumber] = S_MenuBoxPurple;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = 1
 				break;
 				
 			case "Jude Pitch Down":
-			SpeakerSprite[PageNumber] = S_JudeTalk; 
+			SpeakerSprite[PageNumber] = noone; 
 			TextboxSprite[PageNumber] = S_MenuBoxPurple;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
 			Pitch[PageNumber] = .9
