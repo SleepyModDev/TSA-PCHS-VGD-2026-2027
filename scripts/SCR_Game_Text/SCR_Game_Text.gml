@@ -140,7 +140,38 @@ function Game_Text(_TextID)
 		case "To Habitation Lights Out" :
 			Text_SCR("! The lights went out...")
 			Text_SCR("Until the lights are restored you'll have to rely on the limited light from your headlamp to make repairs.")
+			break;
 		
+		case "Habitation Locked Door NPC 1" :
+			if !array_get(global.SeenTextArray,1)
+			{
+				Text_SCR("You knock hard on the door. You hear a voice from the other side call out.")
+				Text_SCR("H- Hello? Who's there!")
+					Option_SCR("Maintenence","HabNPC1 Dialouge Option 1")
+					Option_SCR("Jude","HabNPC1 Dialouge Option 2")
+			}
+			else
+			{
+				if !global.IntroducedJudeToHabNPC1 {Text_SCR("Please be quick.")}
+				else {Text_SCR("Please be quick Jude.")}
+				
+			}
+			break;
+			
+		case "HabNPC1 Dialouge Option 1" :
+			Text_SCR("Maintenence, I'm here to fix the failures caused by the plasma storms on the surface.", "Jude")
+			Text_SCR("Please be quick, I hate being in the dark! I keep hearing something scuttering about in here and it's freaking me out!")
+			global.IntroducedJudeToHabNPC1 = 0
+			array_set(global.SeenTextArray,1,1)
+			break;
+			
+		case "HabNPC1 Dialouge Option 2" :
+			Text_SCR("Jude, I'm here to fix the failures caused by the plasma storms on the surface.", "Jude Happy")
+			Text_SCR("Please be quick Jude, I hate being in the dark! I keep hearing something scuttering about in here and it's freaking me out!")
+			Text_SCR("Alright, the lights will be back in no time, promise.", "Jude Happy")
+			global.IntroducedJudeToHabNPC1 = 1
+			array_set(global.SeenTextArray,1,1)
+			break;
 		#endregion Region 1 Dialouge
 	}
 }

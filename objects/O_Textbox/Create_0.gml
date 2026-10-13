@@ -41,3 +41,12 @@ Set_Defaults_For_text();
 LastFreeSpace = 0;
 TextPauseTimer = 0;
 TextPauseTime = 16;
+
+
+application_surface_draw_enable(false);
+
+var _Camera = view_get_camera(0)
+var _CamHeight = 270;
+var _CamWidth = 480;
+
+TextSurface = surface_create(_CamWidth, _CamHeight);

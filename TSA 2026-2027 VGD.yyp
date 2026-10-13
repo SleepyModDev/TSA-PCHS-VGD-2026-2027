@@ -89,6 +89,7 @@
     {"id":{"name":"O_Warp","path":"objects/O_Warp/O_Warp.yy",},},
     {"id":{"name":"RM_Battle","path":"rooms/RM_Battle/RM_Battle.yy",},},
     {"id":{"name":"RM_Habitation01","path":"rooms/RM_Habitation01/RM_Habitation01.yy",},},
+    {"id":{"name":"RM_Habitation02","path":"rooms/RM_Habitation02/RM_Habitation02.yy",},},
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"id":{"name":"RM_MaintenenceOffice01","path":"rooms/RM_MaintenenceOffice01/RM_MaintenenceOffice01.yy",},},
     {"id":{"name":"RM_MaintenenceOffice02","path":"rooms/RM_MaintenenceOffice02/RM_MaintenenceOffice02.yy",},},
@@ -131,7 +132,6 @@
     {"id":{"name":"S_CheckpointCollision","path":"sprites/S_CheckpointCollision/S_CheckpointCollision.yy",},},
     {"id":{"name":"S_DoorsPlainMetal","path":"sprites/S_DoorsPlainMetal/S_DoorsPlainMetal.yy",},},
     {"id":{"name":"S_InteractCollision","path":"sprites/S_InteractCollision/S_InteractCollision.yy",},},
-    {"id":{"name":"S_JudeTalk","path":"sprites/S_JudeTalk/S_JudeTalk.yy",},},
     {"id":{"name":"S_Light","path":"sprites/S_Light/S_Light.yy",},},
     {"id":{"name":"S_Light01","path":"sprites/S_Light01/S_Light01.yy",},},
     {"id":{"name":"S_Light02","path":"sprites/S_Light02/S_Light02.yy",},},
@@ -176,6 +176,7 @@
     {"roomId":{"name":"RM_MaintenenceOffice01","path":"rooms/RM_MaintenenceOffice01/RM_MaintenenceOffice01.yy",},},
     {"roomId":{"name":"RM_MaintenenceOffice02","path":"rooms/RM_MaintenenceOffice02/RM_MaintenenceOffice02.yy",},},
     {"roomId":{"name":"RM_Habitation01","path":"rooms/RM_Habitation01/RM_Habitation01.yy",},},
+    {"roomId":{"name":"RM_Habitation02","path":"rooms/RM_Habitation02/RM_Habitation02.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

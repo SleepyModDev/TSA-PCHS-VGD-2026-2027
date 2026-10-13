@@ -1,3 +1,15 @@
+if !surface_exists(self.TextSurface)
+	{
+
+		var _CamHeight = 270;
+		var _CamWidth = 480;
+
+		TextSurface = surface_create(_CamWidth, _CamHeight);
+	}
+
+
+
+
 Get_Controls()
 TextSurface = surface_create(480,270)
 surface_set_target(self.TextSurface);
@@ -109,10 +121,10 @@ if TextPauseTimer <=0
 		var _CheckChar = string_char_at(Text[Page], DrawChar);
 		var _CheckCharNext = string_char_at(Text[Page], DrawChar+1);
 		var _CheckCharNextAgain = string_char_at(Text[Page], DrawChar+2);
-		if _CheckChar == "." or _CheckChar == "?" or _CheckChar == "!" or _CheckChar == "," or _CheckChar == ":"
+		if _CheckChar == "." or _CheckChar == "?" or _CheckChar == "!" or _CheckChar == "," or _CheckChar == ":" or _CheckChar == "-"
 		{
 			TextPauseTimer = TextPauseTime
-					if _CheckChar == ","
+					if _CheckChar == "," or _CheckChar == "-"
 				{
 					TextPauseTimer = TextPauseTime/2
 				}
@@ -213,16 +225,16 @@ if DrawChar == TextLength[Page] && Page == PageNumber - 1
 	{
 		//option box
 		var _OptionWidth = string_width(Option[o]) + _OptionBorder*2;
-		draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX - 70, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
+		draw_sprite_ext(TextboxSprite[Page], TextboxImage, _TextboxX, _TextboxY - _OptionSpace*OptionNumber + _OptionSpace*o, _OptionWidth/TextboxSpriteWidth, (_OptionSpace - 16)/TextboxSpriteHeight, 0, c_white, 1 )
 		
 		//the arrow
 		if OptionPos == o
 		{
-			draw_sprite(S_MenuCursor,0,_TextboxX-82, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
+			draw_sprite(S_MenuCursor,0,_TextboxX-12, _TextboxY-_OptionSpace*OptionNumber + _OptionSpace*OptionPos)
 		}
 		
 		//the text
-		draw_text(_TextboxX - 70 + _OptionBorder, _TextboxY - _OptionSpace*OptionNumber+4 + _OptionSpace*o + 2,Option[o]);
+		draw_text(_TextboxX + _OptionBorder, _TextboxY - _OptionSpace*OptionNumber+4 + _OptionSpace*o + 2,Option[o]);
 	}
 	
 }
