@@ -110,14 +110,14 @@ function Text_SCR(_Text)
 			SpeakerSprite[PageNumber] = noone; 
 			TextboxSprite[PageNumber] = S_MenuBoxPurple;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
-			Pitch[PageNumber] = 1
+			Pitch[PageNumber] = .8
 				break;
 				
 			case "Jude Pitch Down":
 			SpeakerSprite[PageNumber] = noone; 
 			TextboxSprite[PageNumber] = S_MenuBoxPurple;
 			Sound[PageNumber] = SND_TextBlip //SNDJudeVoiceBlip
-			Pitch[PageNumber] = .9
+			Pitch[PageNumber] = .7
 				break;
 			#endregion JUDE
 	

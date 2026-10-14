@@ -90,6 +90,7 @@
     {"id":{"name":"RM_Battle","path":"rooms/RM_Battle/RM_Battle.yy",},},
     {"id":{"name":"RM_Habitation01","path":"rooms/RM_Habitation01/RM_Habitation01.yy",},},
     {"id":{"name":"RM_Habitation02","path":"rooms/RM_Habitation02/RM_Habitation02.yy",},},
+    {"id":{"name":"RM_Habitation03","path":"rooms/RM_Habitation03/RM_Habitation03.yy",},},
     {"id":{"name":"RM_Initialize","path":"rooms/RM_Initialize/RM_Initialize.yy",},},
     {"id":{"name":"RM_MaintenenceOffice01","path":"rooms/RM_MaintenenceOffice01/RM_MaintenenceOffice01.yy",},},
     {"id":{"name":"RM_MaintenenceOffice02","path":"rooms/RM_MaintenenceOffice02/RM_MaintenenceOffice02.yy",},},
@@ -177,6 +178,7 @@
     {"roomId":{"name":"RM_MaintenenceOffice02","path":"rooms/RM_MaintenenceOffice02/RM_MaintenenceOffice02.yy",},},
     {"roomId":{"name":"RM_Habitation01","path":"rooms/RM_Habitation01/RM_Habitation01.yy",},},
     {"roomId":{"name":"RM_Habitation02","path":"rooms/RM_Habitation02/RM_Habitation02.yy",},},
+    {"roomId":{"name":"RM_Habitation03","path":"rooms/RM_Habitation03/RM_Habitation03.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

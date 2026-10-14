@@ -1,3 +1,3 @@
-TargetRoom = RM_Habitation02
+TargetRoom = RM_Habitation01
 TargetX = 256
 TargetY = 112
