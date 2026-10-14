@@ -49,6 +49,18 @@ else
 						Create_Textbox("Maintenence Door Locked")
 					}
 					break;
+					
+					case "Habitation North Door" :
+					if array_get(global.OpenedDoorsArray,1)
+					{
+						instance_destroy(inst_7B926456)
+						instance_destroy(inst_748CD346)
+					}
+					else
+					{
+						Create_Textbox("Door Locked")
+					}
+					break;
 				}
 			break;
 		}

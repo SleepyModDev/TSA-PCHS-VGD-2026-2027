@@ -10,21 +10,21 @@ if !global.FreezePlayer {Player_Free()} // player state (add state machine later
 	
 	if (!MovedX && !MovedY) or global.FreezePlayer
 	{
-		sprite_index = S_Player_Idle
+		sprite_index = S_PlayerIdle
 		image_speed = 0
 		image_index = FaceDir
 	}
 	if MovedX && !MovedY && !global.FreezePlayer
 	{
-		if PrevX > x {sprite_index = S_Player_Walk_L; FaceDir = 2}
-		if PrevX < x {sprite_index = S_Player_Walk_R; FaceDir = 0}
+		if PrevX > x {sprite_index = S_PlayerWalkL; FaceDir = 2}
+		if PrevX < x {sprite_index = S_PlayerWalkR; FaceDir = 0}
 		image_speed = 1
 		if PreviousSprite != sprite_index {image_index = 0}
 	}
 	if MovedY && !global.FreezePlayer
 	{
-		if PrevY > y {sprite_index = S_Player_Walk_U; FaceDir = 1}
-		if PrevY < y {sprite_index = S_Player_Walk_D; FaceDir = 3}
+		if PrevY > y {sprite_index = S_PlayerWalkU; FaceDir = 1}
+		if PrevY < y {sprite_index = S_PlayerWalkD; FaceDir = 3}
 		image_speed = 1
 		if PreviousSprite != sprite_index {image_index = 0}
 	}
