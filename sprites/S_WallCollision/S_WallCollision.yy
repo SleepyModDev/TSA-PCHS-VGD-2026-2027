@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"S_WallCollision",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":63,
