@@ -1,1 +1,10 @@
-var newCol;
+newCol = 1;
+secondCol = 1;
+leftLocked = false;
+rightLocked = false;
+upLocked = false;
+downLocked = false;
+nextposX = x;
+nextposY = y;
+lastMoveX = 0;
+lastMoveY = 0;
