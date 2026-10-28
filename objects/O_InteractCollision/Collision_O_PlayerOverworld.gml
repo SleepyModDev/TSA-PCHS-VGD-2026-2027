@@ -23,32 +23,6 @@ if NeedFacing
 						Create_Textbox("Maintenence Door Locked")
 					}
 					break;
-				}
-			break;
-		}
-	}
-}
-else
-{
-	if !global.FreezePlayer && KeySelectPressed
-	{
-		switch InteractType
-		{
-			case "Button" :
-				switch ButtonID
-				{
-					case "Maintenence Door" :
-					if array_get(global.SeenTextArray,0)
-					{
-						array_set(global.OpenedDoorsArray,0,1)
-						instance_destroy(inst_7B926456)
-						instance_destroy(inst_748CD346)
-					}
-					else
-					{
-						Create_Textbox("Maintenence Door Locked")
-					}
-					break;
 					
 					case "Habitation North Door" :
 					if array_get(global.OpenedDoorsArray,1)
@@ -62,23 +36,38 @@ else
 					}
 					break;
 					
-					case "Elevator Habitation":
+					case "Elevator Habitation" :
 					if global.Elevator01CurrentFloorRM == RM_Habitation02
 					{
-						global.Elevator01CurrentFloorRM == RM_Habitation04
-						global.Elevator01CurrentFloorX ==
-						global.Elevator01CurrentFloorY ==
+						global.Elevator01CurrentFloorRM = RM_Habitation04
+						global.Elevator01CurrentFloorX = 0
+						global.Elevator01CurrentFloorY = 0
 					}
 					else
 					{
-						global.Elevator01CurrentFloorRM == RM_Habitation02
-						global.Elevator01CurrentFloorX ==
-						global.Elevator01CurrentFloorY ==
+						global.Elevator01CurrentFloorRM = RM_Habitation02
+						global.Elevator01CurrentFloorX = 0
+						global.Elevator01CurrentFloorY = 0
 					}
 					var _SNDPlayer = instance_create_depth(0,0,0,O_SoundPlayer)
 					with _SNDPlayer {SoundToPlay = SND_ElevatorShort}
 					break;
 				}
+			break;
+		}
+	}
+}
+else
+{
+	if !global.FreezePlayer && KeySelectPressed
+	{
+		switch InteractType
+		{
+			case "Button" :
+				//switch ButtonID
+				//{
+					
+				//}
 			break;
 		}
 	}
