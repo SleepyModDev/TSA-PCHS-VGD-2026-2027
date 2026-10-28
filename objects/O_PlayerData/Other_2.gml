@@ -43,3 +43,8 @@ global.ClearedPuzzlesArea4ArraySaved = array_create(3,false)
 global.ClearedPuzzlesArea5ArraySaved = array_create(3,false)
 global.ClearedPuzzlesArea6ArraySaved = array_create(3,false)
 #endregion arrays
+
+//glolbal vars
+global.Elevator01CurrentFloorRM = RM_Habitation02
+global.Elevator01CurrentFloorX = 128
+global.Elevator01CurrentFloorY = 128

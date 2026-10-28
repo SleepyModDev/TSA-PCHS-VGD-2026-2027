@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"SND_ElevatorLong",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":18.857143,
+  "exportDir":"",
+  "name":"SND_ElevatorLong",
+  "parent":{
+    "name":"Sounds _SND",
+    "path":"folders/Audio [music and sounds]/Sounds _SND.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SND_ElevatorLong.ogg",
+  "volume":1.0,
+}
