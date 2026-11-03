@@ -4,6 +4,7 @@ if Frame = 0
 	if FreezePlayer {global.FreezePlayer = true}
 }
 Frame++
+if FreezePlayer {global.FreezePlayer = true}
 
 if audio_sound_length(SoundToPlay) <= Frame/60
 {
