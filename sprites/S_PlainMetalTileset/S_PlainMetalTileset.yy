@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Tilesets TL_",
-    "path":"folders/Tilesets TL_.yy",
+    "name":"PlainMetal",
+    "path":"folders/Tilesets TL_/PlainMetal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

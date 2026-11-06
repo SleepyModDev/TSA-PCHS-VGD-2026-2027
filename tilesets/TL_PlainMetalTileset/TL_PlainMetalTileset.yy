@@ -13,8 +13,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Tilesets TL_",
-    "path":"folders/Tilesets TL_.yy",
+    "name":"PlainMetal",
+    "path":"folders/Tilesets TL_/PlainMetal.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
