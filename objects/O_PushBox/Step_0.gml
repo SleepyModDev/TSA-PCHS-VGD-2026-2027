@@ -42,6 +42,7 @@ for(var i = 0; i < array_length(usedCollisions); i++){
 			while(place_meeting(x+Parent.lastMoveX,y,usedCol)){
 				Parent.lastMoveX--;	
 			}
+			show_debug_message(Parent.lastMoveX);
 		}
 		with(secondCol)if(place_meeting(x-32,y,usedCol)){
 			Parent.leftLocked = true;
@@ -98,7 +99,7 @@ with(PlayerCol){
 			}
 		}
 	}
-	if(BoxCol.lastMoveX>4){
+	if(BoxCol.lastMoveX>=4){
 		if(BoxCol.nextposX != BoxCol.x){
 			BoxCol.x = BoxCol.x + 4*sign(BoxCol.nextposX - BoxCol.x);	
 		}
@@ -107,7 +108,7 @@ with(PlayerCol){
 			BoxCol.x = BoxCol.x + BoxCol.lastMoveX*sign(BoxCol.nextposY - BoxCol.x);	
 		}
 	}
-	if(BoxCol.lastMoveY>4){
+	if(BoxCol.lastMoveY>=4){
 		if(BoxCol.nextposY != BoxCol.y){
 			BoxCol.y = BoxCol.y + 4*sign(BoxCol.nextposY - BoxCol.y);
 		}

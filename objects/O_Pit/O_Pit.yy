@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_BoxPit",
+  "%Name":"O_Pit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_BoxPit",
+  "name":"O_Pit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Box Push Puzzle",
-    "path":"folders/Objects O_ and Sprites S_/Puzzles/Box Push Puzzle.yy",
+    "name":"Jump Puzzle",
+    "path":"folders/Objects O_ and Sprites S_/Puzzles/Jump Puzzle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_BoxPit",
-    "path":"sprites/S_BoxPit/S_BoxPit.yy",
+    "name":"S_Pit",
+    "path":"sprites/S_Pit/S_Pit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
