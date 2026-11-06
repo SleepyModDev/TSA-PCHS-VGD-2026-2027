@@ -110,8 +110,8 @@ function Game_Text(_TextID)
 		#region Region 1 Dialouge
 		
 		case "Maintenence Door Locked" :
-			Text_SCR("You push the button...")
-			Text_SCR("The door seems to be locked.")
+			Text_SCR("* You push the button...")
+			Text_SCR("* The door seems to be locked.")
 			break;
 		case "Terminal Maintenence Habitation" :
 		if !array_get(global.SeenTextArray,0)
@@ -138,19 +138,19 @@ function Game_Text(_TextID)
 			break;
 			
 		case "To Habitation Lights Out" :
-			Text_SCR("! The lights went out...")
-			Text_SCR("Until the lights are restored you'll have to rely on the limited light from your headlamp to make repairs.")
+			Text_SCR("* ! The lights went out...")
+			Text_SCR("* Until the lights are restored you'll have to rely on the limited light from your headlamp to make repairs.")
 			break;
 		
 		case "Door Locked" :
-			Text_SCR("You push the button...")
-			Text_SCR("The button is not recieving power, and thus the door cannot open.")
+			Text_SCR("* You push the button...")
+			Text_SCR("* The button is not recieving power, and thus the door cannot open.")
 			break;
 			
 		case "Habitation Locked Door NPC 1" :
 			if !array_get(global.SeenTextArray,1)
 			{
-				Text_SCR("You knock hard on the door. You hear a voice from the other side call out.")
+				Text_SCR("* You knock hard on the door. You hear a voice from the other side call out.")
 				Text_SCR("H- Hello? Who's there!")
 					Option_SCR("Maintenence","HabNPC1 Dialouge Option 1")
 					Option_SCR("Jude","HabNPC1 Dialouge Option 2")
@@ -166,8 +166,7 @@ function Game_Text(_TextID)
 		case "HabNPC1 Dialouge Option 1" :
 			Text_SCR("Maintenence, I'm here to fix the failures caused by the plasma storms on the surface.", "Jude")
 			Text_SCR("Please be quick, I hate being in the dark! I keep hearing something scuttering about in here and it's freaking me out!")
-			Text_SCR("I think there's levers in here to control the doors, but some of them arent recieving power.")
-			Text_SCR("If you can restore the power, I think I could open this door and the one into the other sectors, but for now only the north doors lever works, I'll open it now.")
+			Text_SCR("* Once power is restored you can use this elevator to continue forward to the next area.")
 			array_set(global.OpenedDoorsArray,1,1)
 			global.IntroducedJudeToHabNPC1 = 0
 			array_set(global.SeenTextArray,1,1)
@@ -176,9 +175,8 @@ function Game_Text(_TextID)
 		case "HabNPC1 Dialouge Option 2" :
 			Text_SCR("Jude, I'm here to fix the failures caused by the plasma storms on the surface.", "Jude Smile")
 			Text_SCR("Please be quick Jude, I hate being in the dark! I keep hearing something scuttering about in here and it's freaking me out!")
+			Text_SCR("* Once power is restored you can use this elevator to continue forward to the next area.")
 			Text_SCR("The lights will be back on in no time, I promise.", "Jude")
-			Text_SCR("I think there's buttons in here to unlock the doors, but some of them arent recieving power.")
-			Text_SCR("If you can restore the power, I think I could unlock this door and the one into the other sectors, but for now only the north door's button works, I'll open it now.")
 			array_set(global.OpenedDoorsArray,1,1)
 			global.IntroducedJudeToHabNPC1 = 1
 			array_set(global.SeenTextArray,1,1)

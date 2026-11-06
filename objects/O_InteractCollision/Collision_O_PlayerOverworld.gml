@@ -66,15 +66,15 @@ else
 					case "Elevator Habitation":
 					if global.Elevator01CurrentFloorRM == RM_Habitation02
 					{
-						global.Elevator01CurrentFloorRM == RM_Habitation04
-						global.Elevator01CurrentFloorX == 0
-						global.Elevator01CurrentFloorY == 0
+						global.Elevator01CurrentFloorRM = RM_Habitation04
+						global.Elevator01CurrentFloorX = 0
+						global.Elevator01CurrentFloorY = 0
 					}
 					else
 					{
-						global.Elevator01CurrentFloorRM == RM_Habitation02
-						global.Elevator01CurrentFloorX == 0
-						global.Elevator01CurrentFloorY == 0
+						global.Elevator01CurrentFloorRM = RM_Habitation02
+						global.Elevator01CurrentFloorX = 0
+						global.Elevator01CurrentFloorY = 0
 					}
 					var _SNDPlayer = instance_create_depth(0,0,0,O_SoundPlayer)
 					with _SNDPlayer {SoundToPlay = SND_ElevatorShort}
