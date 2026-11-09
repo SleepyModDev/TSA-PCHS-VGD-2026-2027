@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"S_ColoredSectorTileSet",
   "bboxMode":0,
-  "bbox_bottom":639,
+  "bbox_bottom":703,
   "bbox_left":0,
   "bbox_right":639,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":16,
   "gridY":16,
-  "height":640,
+  "height":704,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7915e559-8fbc-47f0-92f4-8296a6ee6729","blendMode":0,"displayName":"default","isLocked":false,"name":"7915e559-8fbc-47f0-92f4-8296a6ee6729","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

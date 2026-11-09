@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"TL_OrangeSectorTileset",
-  "out_columns":14,
+  "out_columns":15,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -34,5 +34,5 @@
   "tileWidth":32,
   "tilexoff":320,
   "tileyoff":0,
-  "tile_count":200,
+  "tile_count":220,
 }
